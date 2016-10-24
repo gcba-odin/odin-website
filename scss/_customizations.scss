@@ -1,0 +1,41 @@
+// BOOTSTRAP CUSTOMIZATIONS
+// Navbar
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 35px;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-right {
+        float: right!important;
+        margin-right: 35px;
+    }
+}
+
+.nav > li > a {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: $secondary-color;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default {
+    background-color: $white;
+    border-color: $primary-color;
+    font-family: 'avenir-black', sans-serif;
+}
+
+.logo {
+    width: 6em;
+}
+
+.navbar-brand {
+    padding: 0;
+}

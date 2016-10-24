@@ -1,0 +1,26 @@
+// #### ELEMENTS #####
+
+body{
+  color: $dark-gray;
+  background-color: #f9f9f9;
+  background: -webkit-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
+  background: -o-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
+  background: -moz-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
+  font-family: 'avenir-medium', sans-serif;
+}
+
+// ####END ELEMENTS####
+// CLASSES
+
+.btn-odin {
+    color: $dark-gray;
+    background-color: $white;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-color: $primary-color;
+}
+
+.hero-legend{
+  font-family: 'avenir-medium', sans-serif;
+  font-size: 1.7rem;
+}

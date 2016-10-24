@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/AvenirLTStd-Black.woff") format("woff");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/AvenirLTStd-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/AvenirLTStd-Roman.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Avenir';
+  src: url("../fonts/AvenirNextLTPro-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Chalet-Sixty';
+  src: url("../fonts/ChaletNewYorkNineteenSixty.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Chalet-Eighty';
+  src: url("../fonts/ChaletNewYorkNineteenEighty.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/open-sans.regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal; }
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 35px; } }
+
+@media (min-width: 768px) {
+  .navbar-right {
+    float: right !important;
+    margin-right: 35px; } }
+
+.nav > li > a {
+  padding-right: 30px;
+  padding-left: 30px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFB600; }
+
+.navbar-default .navbar-toggle {
+  border-color: transparent; }
+
+.navbar-default {
+  background-color: #FEFEFE;
+  border-color: #FF386A;
+  font-family: 'avenir-black', sans-serif; }
+
+.logo {
+  width: 6em; }
+
+.navbar-brand {
+  padding: 0; }
+
+body {
+  color: #666666;
+  background-color: #f9f9f9;
+  background: -webkit-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
+  background: -o-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
+  background: -moz-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
+  font-family: 'avenir-medium', sans-serif; }
+
+.btn-odin {
+  color: #666666;
+  background-color: #FEFEFE;
+  padding-left: 3em;
+  padding-right: 3em;
+  border-color: #FF386A; }
+
+.hero-legend {
+  font-family: 'avenir-medium', sans-serif;
+  font-size: 1.7rem; }
