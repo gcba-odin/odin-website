@@ -1,0 +1,28 @@
+{
+  "name": "odin-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "minify-css": "cleancss public/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcba-odin/odin-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcba-odin/odin-website/issues"
+  },
+  "homepage": "https://github.com/gcba-odin/odin-website#readme",
+  "devDependencies": {
+    "clean-css": "^3.4.20",
+    "gulp": "^3.9.1",
+    "node-sass": "^3.10.1",
+    "nodemon": "^1.11.0"
+  }
+}
