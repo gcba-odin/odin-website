@@ -1,0 +1,38 @@
+// Helper classes
+
+.medium-top-margin {
+    margin-top: $medium-distance;
+}
+
+.medium-bottom-margin {
+    margin-bottom: $medium-distance;
+}
+
+.moderate-top-margin {
+    margin-top: $moderate-distance;
+}
+
+.moderate-bottom-margin {
+    margin-bottom: $moderate-distance;
+}
+
+.small-top-margin {
+    margin-top: $small-distance;
+}
+
+.small-bottom-margin {
+    margin-bottom: $small-distance;
+}
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}

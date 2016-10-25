@@ -21,6 +21,9 @@
 .navbar-default .navbar-nav>li>a {
     color: $secondary-color;
 }
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active {
+    color: $primary-color;
+}
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -29,7 +32,7 @@
 .navbar-default {
     background-color: $white;
     border-color: $primary-color;
-    font-family: 'avenir-black', sans-serif;
+    font-family: 'avenir-medium', sans-serif;
 }
 
 .logo {

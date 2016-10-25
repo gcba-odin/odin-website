@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="57.334px" height="52.333px" viewBox="0 0 57.334 52.333" enable-background="new 0 0 57.334 52.333" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="8.5679" y1="14.5088" x2="21.2139" y2="14.5088">
+		<stop  offset="0.004" style="stop-color:#FFB600"/>
+		<stop  offset="1" style="stop-color:#FF386A"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M13.301,20.831H8.568L8.606,8.228l0.545-0.041h12.063v4.732h-7.913V20.831z M9.658,19.741h2.553
+		V11.83h7.913V9.277L9.658,9.28V19.741z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="8.5679" y1="39.3857" x2="21.2139" y2="39.3857">
+		<stop  offset="0.004" style="stop-color:#FFB600"/>
+		<stop  offset="1" style="stop-color:#FF386A"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M21.214,45.709L8.606,45.667l-0.038-0.545V33.062h4.733v7.915h7.913V45.709z M9.661,44.62h10.463
+		v-2.554h-7.913v-7.915H9.658L9.661,44.62z"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="36.3975" y1="14.5088" x2="49.0435" y2="14.5088">
+		<stop  offset="0.004" style="stop-color:#FFB600"/>
+		<stop  offset="1" style="stop-color:#FF386A"/>
+	</linearGradient>
+	<path fill="url(#SVGID_3_)" d="M49.043,20.831h-4.735v-7.911h-7.911V8.187l12.605,0.041l0.041,0.545V20.831z M45.398,19.741h2.555
+		L47.951,9.277H37.487v2.553h7.911V19.741z"/>
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="36.3975" y1="39.3857" x2="49.0435" y2="39.3857">
+		<stop  offset="0.004" style="stop-color:#FFB600"/>
+		<stop  offset="1" style="stop-color:#FF386A"/>
+	</linearGradient>
+	<path fill="url(#SVGID_4_)" d="M48.458,45.709H36.397v-4.733h7.911v-7.915h4.735l-0.041,12.605L48.458,45.709z M37.487,44.62
+		l10.466-0.042V34.151h-2.555v7.915h-7.911V44.62z"/>
+</g>
+</svg>

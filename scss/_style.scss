@@ -1,14 +1,18 @@
 // #### ELEMENTS #####
 
-body{
-  color: $dark-gray;
-  background-color: #f9f9f9;
-  background: -webkit-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
-  background: -o-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
-  background: -moz-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
-  font-family: 'avenir-medium', sans-serif;
+body {
+    color: $dark-gray;
+    background-color: #f9f9f9;
+    background: -webkit-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
+    background: -o-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
+    background: -moz-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
+    font-family: 'avenir-book', sans-serif;
 }
 
+section {
+    margin-top: $medium-distance;
+    margin-bottom: $medium-distance;
+}
 // ####END ELEMENTS####
 // CLASSES
 
@@ -18,9 +22,24 @@ body{
     padding-left: 3em;
     padding-right: 3em;
     border-color: $primary-color;
+    // -webkit-border-image: url('../images/button-gradient.svg') 5 100% 5px round;
+    // border-image: url('../images/button-gradient.svg') 5 100% 5px round;
+    -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+    border-image: linear-gradient(to bottom right, $secondary-color 0%, $primary-color 100%);
+    border-image-slice: 1;
 }
 
-.hero-legend{
-  font-family: 'avenir-medium', sans-serif;
-  font-size: 1.7rem;
+.hero-legend {
+    font-family: 'avenir-light', sans-serif;
+    font-size: 1.7rem;
+}
+
+.features img {
+    width: 6em;
+    margin: auto;
+}
+// Margin when small screen on feature images
+.features .col-sm-3 {
+    margin-top: $small-distance;
 }
