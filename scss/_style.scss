@@ -10,10 +10,16 @@ body {
 }
 
 section {
-    margin-top: $medium-distance;
-    margin-bottom: $medium-distance;
+    margin-top: $large-distance;
+    margin-bottom: $large-distance;
+    box-shadow: 0px 0px 43px -16px $primary-color;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 // ####END ELEMENTS####
+
+// --------------------------------------- //
+
 // CLASSES
 
 .btn-odin {
@@ -35,11 +41,23 @@ section {
     font-size: 1.7rem;
 }
 
+.odin-hero {
+  width: initial !important;
+}
+
+
 .features img {
     width: 6em;
     margin: auto;
 }
+
 // Margin when small screen on feature images
 .features .col-sm-3 {
     margin-top: $small-distance;
+}
+
+.title{
+  font-family: 'avenir-heavy';
+  font-size: 1.2em;
+  color: $primary-color;
 }

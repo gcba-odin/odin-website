@@ -1,5 +1,6 @@
 // Helper classes
 
+// Margins
 .medium-top-margin {
     margin-top: $medium-distance;
 }
@@ -16,6 +17,15 @@
     margin-bottom: $moderate-distance;
 }
 
+.large-top-margin {
+    margin-top: $large-distance;
+}
+
+.large-bottom-margin {
+    margin-bottom: $large-distance;
+}
+
+
 .small-top-margin {
     margin-top: $small-distance;
 }
@@ -23,6 +33,26 @@
 .small-bottom-margin {
     margin-bottom: $small-distance;
 }
+
+// Paddings
+.medium-sides-padding {
+    padding-left: $medium-distance;
+    padding-right: $medium-distance;
+}
+.large-sides-padding {
+    padding-left: $large-distance;
+    padding-right: $large-distance;
+}
+
+// Colors
+.primary-color{
+  color: $primary-color;
+}
+
+.secondary-color{
+  color: $secondary-color;
+}
+
 /* centered columns styles */
 .row-centered {
     text-align: center;

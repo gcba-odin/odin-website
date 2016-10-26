@@ -28,11 +28,31 @@
 .moderate-bottom-margin {
   margin-bottom: 3.5em; }
 
+.large-top-margin {
+  margin-top: 5em; }
+
+.large-bottom-margin {
+  margin-bottom: 5em; }
+
 .small-top-margin {
   margin-top: 1em; }
 
 .small-bottom-margin {
   margin-bottom: 1em; }
+
+.medium-sides-padding {
+  padding-left: 2em;
+  padding-right: 2em; }
+
+.large-sides-padding {
+  padding-left: 5em;
+  padding-right: 5em; }
+
+.primary-color {
+  color: #FF386A; }
+
+.secondary-color {
+  color: #FFB600; }
 
 /* centered columns styles */
 .row-centered {
@@ -89,8 +109,11 @@ body {
   font-family: 'avenir-book', sans-serif; }
 
 section {
-  margin-top: 2em;
-  margin-bottom: 2em; }
+  margin-top: 5em;
+  margin-bottom: 5em;
+  box-shadow: 0px 0px 43px -16px #FF386A;
+  padding: 2em;
+  background-color: rgba(255, 255, 255, 0.7); }
 
 .btn-odin {
   color: #666666;
@@ -107,9 +130,17 @@ section {
   font-family: 'avenir-light', sans-serif;
   font-size: 1.7rem; }
 
+.odin-hero {
+  width: initial !important; }
+
 .features img {
   width: 6em;
   margin: auto; }
 
 .features .col-sm-3 {
   margin-top: 1em; }
+
+.title {
+  font-family: 'avenir-heavy';
+  font-size: 1.2em;
+  color: #FF386A; }
