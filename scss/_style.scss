@@ -16,14 +16,14 @@ section {
     padding: 2em;
     background-color: rgba(255, 255, 255, 0.7);
 }
-
 @media (min-width: 768px) {
-    section{
-      min-height: 560px;
+    section {
+        min-height: 560px;
     }
 }
 
-.docs, .contact {
+.contact,
+.docs {
     a {
         color: $secondary-color;
         text-decoration: none;
@@ -71,6 +71,7 @@ section {
     margin: auto;
 }
 // Margin when small screen on feature images
+
 .features .col-sm-3 {
     margin-top: $small-distance;
 }
@@ -92,14 +93,35 @@ section {
 }
 @media (max-width: 768px) {
     .gradient-shadow {
-      background-repeat: no-repeat;
+        background-repeat: no-repeat;
     }
 }
 
-.footer{
-  background-color: $light-gray;
-  min-height: initial;
-  height: 50px;
-  padding-left: 1em;
-  padding-right: 1em;
+.footer {
+    background-color: $light-gray;
+    min-height: initial;
+    height: 50px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    // background-color: $primary-color;
+    background: -webkit-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
+    background-repeat: no-repeat;
+    // background-color: $primary-color;
+    font-size: 0;
+    line-height: 0;
+    width: 7px;
+    border-right: 7px solid $secondary-color;
+    border-top: 7px solid #f9f9f9;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f9f9f9;
+
 }
