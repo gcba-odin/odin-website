@@ -123,11 +123,15 @@ section {
   padding: 2em;
   background-color: rgba(255, 255, 255, 0.7); }
 
-.docs a {
+@media (min-width: 768px) {
+  section {
+    min-height: 560px; } }
+
+.docs a, .contact a {
   color: #FFB600;
   text-decoration: none; }
 
-.docs a:hover {
+.docs a:hover, .contact a:hover {
   color: #FF386A;
   text-decoration: none; }
 
