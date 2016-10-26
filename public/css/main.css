@@ -98,6 +98,10 @@
   font-family: 'avenir-medium', sans-serif;
   margin-bottom: 0px; }
 
+.navbar-default .navbar-nav > .active > a {
+  color: #FF386A;
+  background-color: transparent; }
+
 .logo {
   width: 6em; }
 

@@ -36,6 +36,11 @@
     margin-bottom: 0px;
 }
 
+.navbar-default .navbar-nav>.active>a {
+    color:$primary-color;
+    background-color: transparent;
+}
+
 .logo {
     width: 6em;
 }
