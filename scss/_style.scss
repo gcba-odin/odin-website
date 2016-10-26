@@ -95,3 +95,11 @@ section {
       background-repeat: no-repeat;
     }
 }
+
+.footer{
+  background-color: $light-gray;
+  min-height: initial;
+  height: 50px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
