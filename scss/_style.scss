@@ -12,14 +12,24 @@ body {
 section {
     margin-top: $large-distance;
     margin-bottom: $large-distance;
-    box-shadow: 0px 0px 43px -16px $primary-color;
+    box-shadow: 0 0 43px -16px $primary-color;
     padding: 2em;
     background-color: rgba(255, 255, 255, 0.7);
 }
+
+.docs {
+    a {
+        color: $secondary-color;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
 // ####END ELEMENTS####
-
 // --------------------------------------- //
-
 // CLASSES
 
 .btn-odin {
@@ -42,22 +52,35 @@ section {
 }
 
 .odin-hero {
-  width: initial !important;
+    width: initial !important;
 }
 
-
-.features img {
+.features-landing img {
     width: 6em;
     margin: auto;
 }
 
+.features img {
+    width: 9em;
+    margin: auto;
+}
 // Margin when small screen on feature images
 .features .col-sm-3 {
     margin-top: $small-distance;
 }
 
-.title{
-  font-family: 'avenir-heavy';
-  font-size: 1.2em;
-  color: $primary-color;
+.title {
+    font-family: 'avenir-heavy';
+    font-size: 1.2em;
+    color: $primary-color;
+}
+
+.gradient-shadow {
+    display: block;
+    margin-top: 0;
+    background-image: url("../images/gradient-shadow.svg");
+    background-repeat: round;
+    width: 100%;
+    height: 40px;
+    opacity: 0.6;
 }

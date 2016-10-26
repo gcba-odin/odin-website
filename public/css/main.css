@@ -66,6 +66,9 @@
   /* inline-block space fix */
   margin-right: -4px; }
 
+.dark-gray {
+  color: #666666 !important; }
+
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
@@ -91,8 +94,9 @@
 
 .navbar-default {
   background-color: #FEFEFE;
-  border-color: #FF386A;
-  font-family: 'avenir-medium', sans-serif; }
+  border-color: transparent;
+  font-family: 'avenir-medium', sans-serif;
+  margin-bottom: 0px; }
 
 .logo {
   width: 6em; }
@@ -111,9 +115,17 @@ body {
 section {
   margin-top: 5em;
   margin-bottom: 5em;
-  box-shadow: 0px 0px 43px -16px #FF386A;
+  box-shadow: 0 0 43px -16px #FF386A;
   padding: 2em;
   background-color: rgba(255, 255, 255, 0.7); }
+
+.docs a {
+  color: #FFB600;
+  text-decoration: none; }
+
+.docs a:hover {
+  color: #FF386A;
+  text-decoration: none; }
 
 .btn-odin {
   color: #666666;
@@ -133,8 +145,12 @@ section {
 .odin-hero {
   width: initial !important; }
 
-.features img {
+.features-landing img {
   width: 6em;
+  margin: auto; }
+
+.features img {
+  width: 9em;
   margin: auto; }
 
 .features .col-sm-3 {
@@ -144,3 +160,12 @@ section {
   font-family: 'avenir-heavy';
   font-size: 1.2em;
   color: #FF386A; }
+
+.gradient-shadow {
+  display: block;
+  margin-top: 0;
+  background-image: url("../images/gradient-shadow.svg");
+  background-repeat: round;
+  width: 100%;
+  height: 40px;
+  opacity: 0.6; }

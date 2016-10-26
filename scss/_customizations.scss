@@ -31,8 +31,9 @@
 
 .navbar-default {
     background-color: $white;
-    border-color: $primary-color;
+    border-color: transparent;
     font-family: 'avenir-medium', sans-serif;
+    margin-bottom: 0px;
 }
 
 .logo {

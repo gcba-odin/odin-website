@@ -47,8 +47,10 @@
             <!-- /.container-fluid -->
         </nav>
 
+        <span class="gradient-shadow"></span>
+
         <div class="container">
-            <section id="landing" class="features text-center center-block medium-top-margin">
+            <section id="landing" class="features-landing text-center center-block large-top-margin">
                 <!-- <h1 class="hero-title">OPEN DATA INITIATIVE</h1> -->
                 <img src="images/odin-hero.svg" alt="Open Data Initiative" class="img-responsive center-block odin-hero"/>
                 <p class="hero-legend">
@@ -118,9 +120,9 @@
                         </p>
                         <h2 class="title medium-top-margin">RED SOCIAL</h2>
                         <div class="redes">
-                        <img src="images/twitter.svg" alt="twitter" class="img-responsive" style="display:inline;" />
-                        <span class="text-left">@odin_org</span>
-                      </div>
+                            <img src="images/twitter.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
+                            <span class="text-left">@odin_org</span>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-centered large-sides-padding">
                         <h2 class="title">¿POR QUÉ ODÍN?</h2>
@@ -131,6 +133,119 @@
                             <p>Abre catálogos de datos generados por el sector privado, el público y el tercer sector fomentando transparencia gubernamental y participación de los ciudadanos. Además impulsa el desarrollo de políticas, productos y servicios basados en datos
                                 e innovación.</p>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="features" class="features text-center center-block">
+                <div class="col-sm-11 center-block row-centered col-centered">
+                    <div class="col-xs-12 col-sm-6 col-centered large-sides-padding">
+                        <img src="images/usabilidad.svg" class="img-responsive center-block"/>
+                        <h2 class="title text-center">USABILIDAD</h2>
+                        <div class="small-top-margin">
+
+                            <p class="small-top-margin">
+                                - La plataforma cuenta con un adminis- trador que hace más fácil e intuitivo el manejo del contenido. - La estética de la aplicación es amable al ciudadano, le permite encontrar datos de manera fácil y rápida.
+                            </p>
+                        </div>
+
+                        <br>
+
+                        <img src="images/concepto.svg" class="img-responsive center-block large-top-margin"/>
+                        <h2 class="title text-center">NUEVO CONCEPTO DE DATASET</h2>
+                        <div class="small-top-margin">
+                            <p>
+                                - Un dataset que engloba todos los recursos. - Los archivos son almacenados en la base de datos, permitiendo buscar datasets por el contenido de los archi- vos. - Los datasets y recursos tienen una propiedad llamada estado que hace más fácil
+                                publicar y ocultar información. - Integra campos por defecto, lo cual permite su búsqueda, filtrado y trata- miento. - Mayor granularidad en la actualización de la información reflejandose en las fechas de los recursos según la entidad
+                                actualizada.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-right">
+                        <img src="images/calidad.svg" class="img-responsive center-block"/>
+                        <h2 class="title text-center">CALIDAD DE DATOS</h2>
+                        <div class="small-top-margin">
+
+                            <p class="small-top-margin">
+                                - Permite normalizar organizaciones. - Mejor presentación de la información. - Genera mapas tanto desde un CSV, XLS, XLSX, JSON o embebidos. - Permite incluir gráficos desde platafor- mas que generen iframes. - Un mismo archivo puede mostrarse de
+                                diferentes formatos: mapa, gráfico, tabla y/o pdf.
+                            </p>
+                        </div>
+
+                        <img src="images/mejoras-tecnicas.svg" class="img-responsive center-block large-top-margin"/>
+                        <h2 class="title text-center">MEJORAS TÉCNICAS</h2>
+                        <div class="small-top-margin">
+                            <p>
+                                - La arquitectura utilizada permite crear diferentes aplicaciones utilizando la API. - El contenido de los archivos se guarda en una base de datos para usarlo y consultarlo.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="docs" class="docs text-center center-block">
+                <div class="col-sm-11 center-block row-centered col-centered">
+                    <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-left">
+                        <h2 class="title">¿CÓMO FUNCIONA?</h2>
+                        <p class="small-top-margin">
+                            Mediante un administrador que controla y publica datos y una API que permite el acceso a información desde aplicaciones externas. Odín se encuentra bajo la licencia GPL.
+                        </p>
+
+                        <h2 class="title medium-top-margin">Tecnologías para el desarrollo de Odín:</h2>
+                        <div class="redes">
+                            <div class="small-top-margin">
+                                <p>
+                                    - API Rest creada con Sails.js, framework de NodeJS. - Frontend y administrador creados sobre AngularJS 1.5.x, HTML5 y CSS3. Gulp y Bower para la automatización, minificación y descarga de dependencias. - Base de datos NoSQL (MongoDB) para la
+                                    persistencia de los archivos. - Base de datos relacional (PostgreSQL) para guardar la metadata de todas las entidades. Odín convierte automáticamente los archivos subidos de tipo CSV, XLS, XLSX a JSON para poder ver su contenido, aplicar filtros y
+                                    bús- quedas, generar paginación, previsualizacio- nes, etc.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-right">
+                        <p>
+                            La API Rest utiliza Kong ( getkong.org/ ) como Gateway para manejar au- tenticación, limite de tráfico, ACL, CORS y relacionados, por lo que se necesitará una ApiKey para las interac- ciones con la API.
+                        </p>
+                        <h2 class="title">Conexiones</h2>
+                        <div class="small-top-margin">
+                          <p>
+                            Web Services (Rest y Soap)
+                          </p>
+                            <p>
+                              Sistemas Externos
+                            </p>
+                        </div>
+
+                        <h2 class="title">Recursos y links</h2>
+                        <div class="small-top-margin">
+                          <p>
+                          API REST: <a href="github.com/gcba-odin/odin">github.com/gcba-odin/odin</a>
+                          </p>
+                            <p>
+                              Frontend: <a href="github.com/gcba-odin/odin-frontend">github.com/gcba-odin/odin-frontend</a>
+                            </p>
+                            <p>
+                              Admin: <a href="github.com/gcba-odin/odin-admin">github.com/gcba-odin/odin-admin</a>
+                            </p>
+                        </div>
+
+                        <div class="medium-top-margin">
+                          <h2 class="title dark-gray">Documentación técnica</h2>
+                          <p>
+                          API REST: <a href="gcba-odin.github.io/odin-tech-docs/">gcba-odin.github.io/odin-tech-docs/</a>
+                          </p>
+                          <h2 class="title dark-gray">Documentación funcional</h2>
+                            <p>
+                              Frontend: <a href="github.com/gcba-odin/odin-frontend">Manual de usuario</a>
+                            </p>
+                            <h2 class="title dark-gray">Organización</h2>
+                            <p>
+                              Admin: <a href="github.com/gcba-odin">github.com/gcba-odin</a>
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </section>
