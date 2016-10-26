@@ -90,3 +90,8 @@ section {
     height: 40px;
     opacity: 0.6;
 }
+@media (max-width: 768px) {
+    .gradient-shadow {
+      background-repeat: no-repeat;
+    }
+}
