@@ -95,7 +95,8 @@
   color: #FFB600; }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active {
-  color: #FF386A; }
+  color: #FF386A !important;
+  background-color: transparent !important; }
 
 .navbar-default .navbar-toggle {
   border-color: transparent; }
@@ -130,11 +131,11 @@ section {
   box-shadow: 0 0 43px -16px #FF386A;
   padding: 2em;
   background-color: rgba(255, 255, 255, 0.7);
-  min-height: 90vh !important; }
+  min-height: 80vh !important; }
 
 @media (min-width: 768px) {
   section {
-    min-height: 560px; } }
+    min-height: 80vh !important; } }
 
 .contact a,
 .docs a,
@@ -191,6 +192,12 @@ section {
   height: 40px;
   opacity: 0.6; }
 
+.navbar-default {
+  background-color: transparent; }
+
+.navbar-default .container-fluid {
+  background-color: white; }
+
 @media (max-width: 768px) {
   .gradient-shadow {
     background-repeat: no-repeat; } }
@@ -201,18 +208,3 @@ section {
   height: 60px;
   padding-left: 1em;
   padding-right: 1em; }
-
-::-webkit-scrollbar {
-  width: 10px; }
-
-::-webkit-scrollbar-thumb {
-  background: -webkit-linear-gradient(120deg, #f9f9f9 50%, #f2f2f2 50%);
-  background-repeat: no-repeat;
-  font-size: 0;
-  line-height: 0;
-  width: 7px;
-  border-right: 7px solid #FFB600;
-  border-top: 7px solid #f9f9f9; }
-
-::-webkit-scrollbar-track {
-  background-color: #f9f9f9; }

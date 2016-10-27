@@ -11,7 +11,7 @@
     </head>
     <body class="bg-split">
         <!-- nav -->
-        <nav class="navbar navbar-default navbar-static-top" id="navigation_bar">
+        <nav class="navbar navbar-default navbar-fixed-top" id="navigation_bar">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -45,11 +45,11 @@
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
+            <span class="gradient-shadow"></span>
         </nav>
-        <span class="gradient-shadow"></span>
 
-        <div class="container">
-            <section id="landing" class="features-landing text-center center-block medium-top-margin">
+        <div class="container large-top-margin">
+            <section id="landing" class="section features-landing text-center center-block medium-top-margin">
                 <!-- <h1 class="hero-title">OPEN DATA INITIATIVE</h1> -->
                 <img src="images/odin-hero.svg" alt="Open Data Initiative" class="img-responsive center-block odin-hero"/>
                 <p class="hero-legend">
@@ -109,7 +109,7 @@
                 </div>
             </section>
 
-            <section id="us" class="us text-center center-block">
+            <section id="us" class="section us text-center center-block">
                 <div class="col-sm-11 center-block row-centered col-centered">
                     <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding">
                         <img src="images/odin-line.svg" class="img-responsive center-block"/>
@@ -134,7 +134,7 @@
                 </div>
             </section>
 
-            <section id="features" class="features text-center center-block">
+            <section id="features" class="section features text-center center-block">
                 <div class="col-sm-11 center-block row-centered col-centered">
                     <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding">
                         <img src="images/usabilidad.svg" class="img-responsive center-block"/>
@@ -213,7 +213,7 @@
                 </div>
             </section>
 
-            <section id="docs" class="docs text-center center-block">
+            <section id="docs" class="section docs text-center center-block">
                 <div class="col-sm-11 center-block row-centered col-centered">
                     <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding pull-left">
                         <h2 class="title">¿CÓMO FUNCIONA?</h2>
@@ -292,7 +292,7 @@
                 </div>
             </section>
 
-            <section id="contact" class="contact text-center center-block">
+            <section id="contact" class="section contact text-center center-block">
                 <div class="col-sm-11 center-block row-centered col-centered">
                     <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding pull-left">
                         <h2 class="title medium-top-margin">¡SUMATE AL EQUIPO!</h2>
@@ -321,18 +321,47 @@
         </div>
         <footer id="footer" class="footer vertical-center">
             <div class="pull-left">
-                Source code available under the <a href="#"> GPL v3 license</a>.
+                Source code available under the
+                <a href="#">
+                    GPL v3 license</a>.
                 <br>
-                Usage of <a href="#"> Open Data Commons</a>.
+                Usage of
+                <a href="#">
+                    Open Data Commons</a>.
             </div>
             <img src="images/odin-small.svg" alt="" class="img-responsive pull-right" style="margin-left:auto;"/>
         </footer>
         <!-- /.container -->
+
         <!-- :::SCRIPTS::: -->
         <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
         <script src="js/bootstrap.min.js" charset="utf-8"></script>
         <script type="text/javascript">
-            // Enable to set active class on sticky navbar (fixed instead of static) $(document).ready(function() {     $('body').scrollspy({target: '#navigation_bar', offset: 50}); });
+            $(document).ready(function() {
+                // sets active to navbar based on the actual section
+                $('body').scrollspy({target: '#navigation_bar', offset: 150});
+
+                // smooth scroll to section
+                $('.navbar-nav a, a.navbar-brand').on('click', function(e) {
+                    var el = $(e.target.getAttribute('href'));
+                    var elOffset = el.offset().top;
+                    var elHeight = el.height();
+                    var windowHeight = $(window).height();
+                    var offset;
+
+                    if (elHeight < windowHeight) {
+                        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+                    } else {
+                        offset = elOffset;
+                    }
+                    var speed = 700;
+                    $('html, body').animate({
+                        scrollTop: offset
+                    }, speed);
+                });
+
+            });
         </script>
+
     </body>
 </html>

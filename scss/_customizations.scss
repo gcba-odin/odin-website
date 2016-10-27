@@ -22,7 +22,9 @@
     color: $secondary-color;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active {
-    color: $primary-color;
+    color: $primary-color !important;
+    background-color: transparent !important;
+
 }
 
 .navbar-default .navbar-toggle {
