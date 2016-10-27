@@ -137,15 +137,11 @@ section {
   section {
     min-height: 80vh !important; } }
 
-.contact a,
-.docs a,
-.footer a {
+a {
   color: #FFB600;
   text-decoration: none; }
 
-.contact a:hover,
-.docs a:hover,
-.footer a:hover {
+a:hover {
   color: #FF386A;
   text-decoration: none; }
 
