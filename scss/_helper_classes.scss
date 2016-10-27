@@ -27,7 +27,7 @@
 
 
 .small-top-margin {
-    margin-top: $small-distance;
+    margin-top: 1.5em;
 }
 
 .small-bottom-margin {
@@ -44,6 +44,10 @@
     padding-right: $large-distance;
 }
 
+.small-letter-space {
+    letter-spacing: 1px !important;
+}
+
 // Colors
 .primary-color{
   color: $primary-color;
@@ -52,6 +56,12 @@
 .secondary-color{
   color: $secondary-color;
 }
+
+.dark-gray{
+  color: $dark-gray !important;
+}
+
+
 
 /* centered columns styles */
 .row-centered {
@@ -73,9 +83,4 @@
 
   display: flex;
   align-items: center;
-}
-
-// Colors
-.dark-gray{
-  color: $dark-gray !important;
 }

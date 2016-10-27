@@ -34,8 +34,10 @@
 .navbar-default {
     background-color: $white;
     border-color: transparent;
-    font-family: 'avenir-medium', sans-serif;
+    font-family: 'avenir-black', sans-serif;
     margin-bottom: 0px;
+    letter-spacing: 2px;
+    font-size: small;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -49,4 +51,8 @@
 
 .navbar-brand {
     padding: 0;
+}
+
+p {
+  line-height: 1.5em;
 }

@@ -35,7 +35,7 @@
   margin-bottom: 5em; }
 
 .small-top-margin {
-  margin-top: 1em; }
+  margin-top: 1.5em; }
 
 .small-bottom-margin {
   margin-bottom: 1em; }
@@ -48,11 +48,17 @@
   padding-left: 5em;
   padding-right: 5em; }
 
+.small-letter-space {
+  letter-spacing: 1px !important; }
+
 .primary-color {
   color: #FF386A; }
 
 .secondary-color {
   color: #FFB600; }
+
+.dark-gray {
+  color: #666666 !important; }
 
 /* centered columns styles */
 .row-centered {
@@ -73,9 +79,6 @@
   /* These two lines are counted as one :-)       */
   display: flex;
   align-items: center; }
-
-.dark-gray {
-  color: #666666 !important; }
 
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
@@ -104,8 +107,10 @@
 .navbar-default {
   background-color: #FEFEFE;
   border-color: transparent;
-  font-family: 'avenir-medium', sans-serif;
-  margin-bottom: 0px; }
+  font-family: 'avenir-black', sans-serif;
+  margin-bottom: 0px;
+  letter-spacing: 2px;
+  font-size: small; }
 
 .navbar-default .navbar-nav > .active > a {
   color: #FF386A;
@@ -116,6 +121,9 @@
 
 .navbar-brand {
   padding: 0; }
+
+p {
+  line-height: 1.5em; }
 
 body {
   color: #666666;
@@ -148,8 +156,10 @@ a:hover {
 .btn-odin {
   color: #666666;
   background-color: #FEFEFE;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding: 0.6em 3.5em;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  font-family: 'avenir-medium';
   border-color: #FF386A;
   -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
   -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
@@ -171,13 +181,18 @@ a:hover {
   width: 9em;
   margin: auto; }
 
+.contact img {
+  margin-left: -1em;
+  width: 6em; }
+
 .features .col-sm-3 {
   margin-top: 1em; }
 
 .title {
-  font-family: 'avenir-heavy';
+  font-family: 'avenir-black';
   font-size: 1.2em;
-  color: #FF386A; }
+  color: #FF386A;
+  letter-spacing: 2px; }
 
 .gradient-shadow {
   display: block;
