@@ -66,6 +66,14 @@
   /* inline-block space fix */
   margin-right: -4px; }
 
+.vertical-center {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center; }
+
 .dark-gray {
   color: #666666 !important; }
 
@@ -121,19 +129,22 @@ section {
   margin-bottom: 5em;
   box-shadow: 0 0 43px -16px #FF386A;
   padding: 2em;
-  background-color: rgba(255, 255, 255, 0.7); }
+  background-color: rgba(255, 255, 255, 0.7);
+  min-height: 90vh !important; }
 
 @media (min-width: 768px) {
   section {
     min-height: 560px; } }
 
 .contact a,
-.docs a {
+.docs a,
+.footer a {
   color: #FFB600;
   text-decoration: none; }
 
 .contact a:hover,
-.docs a:hover {
+.docs a:hover,
+.footer a:hover {
   color: #FF386A;
   text-decoration: none; }
 
@@ -187,7 +198,7 @@ section {
 .footer {
   background-color: #EAEAEA;
   min-height: initial;
-  height: 50px;
+  height: 60px;
   padding-left: 1em;
   padding-right: 1em; }
 

@@ -15,6 +15,7 @@ section {
     box-shadow: 0 0 43px -16px $primary-color;
     padding: 2em;
     background-color: rgba(255, 255, 255, 0.7);
+    min-height: 90vh !important;
 }
 @media (min-width: 768px) {
     section {
@@ -23,7 +24,8 @@ section {
 }
 
 .contact,
-.docs {
+.docs,
+.footer {
     a {
         color: $secondary-color;
         text-decoration: none;
@@ -100,7 +102,7 @@ section {
 .footer {
     background-color: $light-gray;
     min-height: initial;
-    height: 50px;
+    height: 60px;
     padding-left: 1em;
     padding-right: 1em;
 }
