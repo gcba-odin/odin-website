@@ -1,30 +1,83 @@
 // BOOTSTRAP CUSTOMIZATIONS
 // Navbar
-@media (min-width: 768px) {
-    .navbar > .container .navbar-brand,
+
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    margin-left: 35px;
+}
+
+.navbar-right {
+    float: right;
+    margin-right: 35px;
+}
+@media (min-width: 320px) and (max-width: 765px) {
+    .navbar > .container-fluid .navbar-collapse,
+    .navbar-toggle {
+        float: left;
+    }
+
+    #bs-example-navbar-collapse-1 {
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar-default .navbar-toggle {
+        position: absolute;
+        background-color: transparent;
+    }
+
+
+    .navbar-default .navbar-toggle:active,
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:visited,
+    .navbar-default .navbar-toggle:link,
+    .navbar-default .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    .nav.navbar-nav.navbar-right {
+        float: left;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .nav.navbar-nav.navbar-right > li {
+        width: 100%;
+        // border-top: 2px solid $light-gray;
+        border-bottom: 1px solid $light-gray;
+    }
+
     .navbar > .container-fluid .navbar-brand {
-        margin-left: 35px;
+        text-align: center;
+        margin: auto;
+        float: none;
+        display: table;
     }
 }
-@media (min-width: 768px) {
-    .navbar-right {
-        float: right!important;
-        margin-right: 35px;
+@media (min-width: 768px) and (max-width: 992px) {
+    .navbar-nav > li > a {
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+}
+@media (min-width: 992px) {
+    .nav > li > a {
+        padding-right: 30px;
+        padding-left: 30px;
     }
 }
 
-.nav > li > a {
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav > li > a {
     color: $secondary-color;
 }
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:active {
+
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:hover {
     color: $primary-color !important;
     background-color: transparent !important;
-
 }
 
 .navbar-default .navbar-toggle {
@@ -35,13 +88,13 @@
     background-color: $white;
     border-color: transparent;
     font-family: 'avenir-black', sans-serif;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     letter-spacing: 2px;
     font-size: small;
 }
 
-.navbar-default .navbar-nav>.active>a {
-    color:$primary-color;
+.navbar-default .navbar-nav > .active > a {
+    color: $primary-color;
     background-color: transparent;
 }
 
@@ -54,5 +107,5 @@
 }
 
 p {
-  line-height: 1.5em;
+    line-height: 1.5em;
 }
