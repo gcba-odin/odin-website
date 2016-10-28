@@ -109,3 +109,35 @@
 p {
     line-height: 1.5em;
 }
+
+// Fullpage.js
+
+.fp-slidesNav.bottom {
+  bottom: 0px;
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span, .fp-slidesNav ul li a span:hover {
+    width: 16px;
+    height: 16px;
+    margin: -4px 0 0 -4px;
+    background: transparent;
+    box-sizing: border-box;
+    border: 1px solid $secondary-color;
+    // -webkit-border-image: linear-gradient(to bottom right, $secondary-color 0%, $primary-color 100%);
+    // -moz-border-image: -moz-linear-gradient(to bottom right, $secondary-color 0%, $primary-color 100%);
+    // -webkit-border-image: -webkit-linear-gradient(to bottom right, $secondary-color 0%, $primary-color 100%);
+
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+    width: 16px;
+    height: 16px;
+    margin: -4px 0 0 -4px;
+    background: $primary-color;
+    background: linear-gradient(to bottom right, $secondary-color 0%, $primary-color 100%);
+    border: none;
+}

@@ -7,6 +7,7 @@
         <!-- :::STYLES::: -->
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
         <link rel="stylesheet" href="fonts/avenir/importer.css" media="screen">
+        <link rel="stylesheet" href="css/jquery.fullPage.min.css" media="screen" title="no title">
         <link rel="stylesheet" href="css/main.css" media="screen">
     </head>
     <body class="bg-split">
@@ -48,7 +49,7 @@
             <span class="gradient-shadow"></span>
         </nav>
 
-        <div class="container large-top-margin">
+        <div class="container large-top-margin" id="fullpage">
             <section id="landing" class="section features-landing text-center center-block medium-top-margin">
                 <!-- <h1 class="hero-title">OPEN DATA INITIATIVE</h1> -->
                 <img src="images/odin-hero.svg" alt="Open Data Initiative" class="img-responsive center-block odin-hero"/>
@@ -58,28 +59,28 @@
                 <p class="hero-legend">
                     Utiliza nuevas tecnologías ofreciendo una solución integral de gestión de datos.
                 </p>
-                <a href="#" class="btn btn-odin medium-top-margin medium-bottom-margin">Probar</a>
+                <a href="#" class="btn btn-odin medium-top-margin medium-bottom-margin" style="clear:both;">Probar</a>
 
                 <div class="col-xs-12 center-block row-centered col-centered medium-top-margin">
-                    <div class="col-xs-12 col-sm-3">
+                    <div class="col-xs-6 col-sm-3">
                         <img src="images/datos.svg" class="img-responsive"/>
                         <p class="text-center small-top-margin">
                             Visualización y análisis de datos
                         </p>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
+                    <div class="col-xs-6 col-sm-3">
                         <img src="images/modular.svg" class="img-responsive"/>
                         <p class="text-center small-top-margin">
                             Modular y escalable
                         </p>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
+                    <div class="col-xs-6 col-sm-3 break">
                         <img src="images/acceso.svg" class="img-responsive"/>
                         <p class="text-center small-top-margin">
                             Control de acceso granular
                         </p>
                     </div>
-                    <div class="col-xs-12 col-sm-3">
+                    <div class="col-xs-6 col-sm-3">
                         <img src="images/conectores.svg" class="img-responsive"/>
                         <p class="text-center small-top-margin">
                             Conectores universales
@@ -88,19 +89,19 @@
                 </div>
 
                 <div class="col-md-9 center-block row-centered col-centered moderate-top-margin">
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-6 col-sm-4">
                         <img src="images/cog.svg" class="img-responsive"/>
                         <p class="text-center small-top-margin">
                             Plataforma de catálogo completo, interfaz intuitiva y potente API
                         </p>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-6 col-sm-4">
                         <img src="images/workflow.svg" class="img-responsive"/>
                         <p class="text-center small-top-margin">
                             El flujo de trabajo permite manejar publicaciones de datos propias
                         </p>
                     </div>
-                    <div class="col-xs-12 col-sm-4">
+                    <div class="col-xs-6 col-sm-4 pull-left break">
                         <img src="images/almacenamiento.svg" class="img-responsive"/>
                         <p class="text-center small-top-margin">
                             Almacenamiento de datos integrado y API de datos completa
@@ -119,7 +120,9 @@
                         </p>
                         <h2 class="title medium-top-margin">RED SOCIAL</h2>
                         <img src="images/twitter.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
-                        <span class="text-left"><a href="https://twitter.com/odin_org">@Odin_org</a></span>
+                        <span class="text-left">
+                            <a href="https://twitter.com/odin_org">@Odin_org</a>
+                        </span>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-right">
                         <h2 class="title">¿POR QUÉ ODÍN?</h2>
@@ -134,7 +137,7 @@
                 </div>
             </section>
 
-            <section id="features" class="section features text-center center-block">
+            <section id="features" class="section features text-center center-block hidden-xs">
                 <div class="col-sm-11 center-block row-centered col-centered">
                     <div class="col-xs-12 col-sm-6 col-centered large-sides-padding">
                         <img src="images/usabilidad.svg" class="img-responsive center-block"/>
@@ -213,155 +216,245 @@
                 </div>
             </section>
 
-            <section id="docs" class="section docs text-center center-block">
-                <div class="col-sm-11 center-block row-centered col-centered">
-                    <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-left">
-                        <h2 class="title">¿CÓMO FUNCIONA?</h2>
-                        <p class="small-top-margin">
-                            Mediante un administrador que controla y publica datos y una API que permite el acceso a información desde aplicaciones externas. Odín se encuentra bajo la licencia GPL.
-                        </p>
+            <section id="features-xs" class="section-fp features text-center center-block visible-xs fp-auto-height">
+                <div class="col-sm-12 center-block slide text-left">
+                    <img src="images/usabilidad.svg" class="img-responsive center-block"/>
+                    <h2 class="title text-center">USABILIDAD</h2>
+                    <div class="small-top-margin">
+                        <div class="small-top-margin">
+                            <p>
+                                - La plataforma cuenta con un administrador que hace más fácil e intuitivo el manejo del contenido.
+                            </p>
+                            <p>
+                                - La estética de la aplicación es amable al ciudadano, le permite encontrar datos de manera fácil y rápida.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-                        <h2 class="title medium-top-margin small-letter-space">Tecnologías para el desarrollo de Odín:</h2>
-                        <div class="redes">
-                            <div class="small-top-margin">
-                                <p>
-                                    - API Rest creada con Sails.js, framework de NodeJS.
-                                </p>
-                                <p>
-                                    - Frontend y administrador creados sobre AngularJS 1.5.x, HTML5 y CSS3. Gulp y Bower para la automatización, minificación y descarga de dependencias.
-                                </p>
-                                <p>
-                                    - Base de datos NoSQL (MongoDB) para la persistencia de los archivos.
-                                </p>
-                                <p>
-                                    - Base de datos relacional (PostgreSQL) para guardar la metadata de todas las entidades. Odín convierte automáticamente los archivos subidos de tipo CSV, XLS, XLSX a JSON para poder ver su contenido, aplicar filtros y búsquedas, generar
-                                    paginación, previsualizaciones, etc.
-                                </p>
-                                <p>
-                                    La API Rest utiliza Kong <a href="getkong.org">(getkong.org)</a> como Gateway para manejar autenticación, limite de tráfico, ACL, CORS y relacionados, por lo que se necesitará una ApiKey para las interacciones con la API.
-                                </p>
+                <div class="col-sm-12 center-block slide text-left">
+                    <img src="images/concepto.svg" class="img-responsive center-block large-top-margin"/>
+                    <h2 class="title text-center">NUEVO CONCEPTO DE DATASET</h2>
+                    <div class="small-top-margin">
+                        <p>
+                            - Un dataset que engloba todos los recursos.
+                        </p>
+                        <p>
+                            - Los archivos son almacenados en la base de datos, permitiendo buscar datasets por el contenido de los archivos.
+                        </p>
+                        <p>
+                            - Los datasets y recursos tienen una propiedad llamada estado que hace más fácil publicar y ocultar información.
+                        </p>
+                        <p>
+                            - Integra campos por defecto, lo cual permite su búsqueda, filtrado y tratamiento.
+                        </p>
+                        <p>
+                            - Mayor granularidad en la actualización de la información reflejandose en las fechas de los recursos según la entidad actualizada.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 center-block slide text-left">
+                    <img src="images/calidad.svg" class="img-responsive center-block"/>
+                    <h2 class="title text-center">CALIDAD DE DATOS</h2>
+                    <div class="small-top-margin">
+
+                        <div class="small-top-margin">
+                            <p>
+                                - Permite normalizar organizaciones.
+                            </p>
+                            <p>
+                                - Mejor presentación de la información.
+                            </p>
+                            <p>
+                                - Genera mapas tanto desde un CSV, XLS, XLSX, JSON o embebidos.
+                            </p>
+                            <p>
+                                - Permite incluir gráficos desde plataformas que generen iframes.
+                            </p>
+                            <p>
+                                - Un mismo archivo puede mostrarse de diferentes formatos: mapa, gráfico, tabla y/o pdf.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 center-block slide text-left">
+                        <h2 class="title text-center">MEJORAS TÉCNICAS</h2>
+                        <div class="small-top-margin">
+                            <p>
+                                - La arquitectura utilizada permite crear diferentes aplicaciones utilizando la API.
+                            </p>
+                            <p>
+                                - El contenido de los archivos se guarda en una base de datos para usarlo y consultarlo.
+                            </p>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section id="docs" class="section docs text-center center-block">
+                    <div class="col-sm-11 center-block row-centered col-centered">
+                        <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-left">
+                            <h2 class="title">¿CÓMO FUNCIONA?</h2>
+                            <p class="small-top-margin">
+                                Mediante un administrador que controla y publica datos y una API que permite el acceso a información desde aplicaciones externas. Odín se encuentra bajo la licencia GPL.
+                            </p>
+
+                            <h2 class="title medium-top-margin small-letter-space">Tecnologías para el desarrollo de Odín:</h2>
+                            <div class="redes">
+                                <div class="small-top-margin">
+                                    <p>
+                                        - API Rest creada con Sails.js, framework de NodeJS.
+                                    </p>
+                                    <p>
+                                        - Frontend y administrador creados sobre AngularJS 1.5.x, HTML5 y CSS3. Gulp y Bower para la automatización, minificación y descarga de dependencias.
+                                    </p>
+                                    <p>
+                                        - Base de datos NoSQL (MongoDB) para la persistencia de los archivos.
+                                    </p>
+                                    <p>
+                                        - Base de datos relacional (PostgreSQL) para guardar la metadata de todas las entidades. Odín convierte automáticamente los archivos subidos de tipo CSV, XLS, XLSX a JSON para poder ver su contenido, aplicar filtros y búsquedas, generar
+                                        paginación, previsualizaciones, etc.
+                                    </p>
+                                    <p>
+                                        La API Rest utiliza Kong
+                                        <a href="getkong.org">(getkong.org)</a>
+                                        como Gateway para manejar autenticación, limite de tráfico, ACL, CORS y relacionados, por lo que se necesitará una ApiKey para las interacciones con la API.
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-right">
-                        <h2 class="title small-letter-space">Conexiones</h2>
-                        <div class="small-top-margin">
-                            <p>
-                                Web Services (Rest y Soap)
-                            </p>
-                            <p>
-                                Sistemas Externos
-                            </p>
+                        <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-right">
+                            <h2 class="title small-letter-space">Conexiones</h2>
+                            <div class="small-top-margin">
+                                <p>
+                                    Web Services (Rest y Soap)
+                                </p>
+                                <p>
+                                    Sistemas Externos
+                                </p>
+                            </div>
+
+                            <h2 class="title small-letter-space">Recursos y links</h2>
+                            <div class="small-top-margin">
+                                <p>
+                                    API REST:
+                                    <a href="github.com/gcba-odin/odin">github.com/gcba-odin/odin</a>
+                                </p>
+                                <p>
+                                    Frontend:
+                                    <a href="github.com/gcba-odin/odin-frontend">github.com/gcba-odin/odin-frontend</a>
+                                </p>
+                                <p>
+                                    Admin:
+                                    <a href="github.com/gcba-odin/odin-admin">github.com/gcba-odin/odin-admin</a>
+                                </p>
+                            </div>
+
+                            <div class="medium-top-margin">
+                                <h2 class="title dark-gray small-letter-space">Documentación técnica</h2>
+                                <p>
+                                    API REST:
+                                    <a href="gcba-odin.github.io/odin-tech-docs/">gcba-odin.github.io/odin-tech-docs/</a>
+                                </p>
+                                <h2 class="title dark-gray small-letter-space">Documentación funcional</h2>
+                                <p>
+                                    Frontend:
+                                    <a href="github.com/gcba-odin/odin-frontend">Manual de usuario</a>
+                                </p>
+                                <h2 class="title dark-gray small-letter-space">Organización</h2>
+                                <p>
+                                    Admin:
+                                    <a href="github.com/gcba-odin">github.com/gcba-odin</a>
+                                </p>
+                            </div>
+
                         </div>
+                    </div>
+                </section>
 
-                        <h2 class="title small-letter-space">Recursos y links</h2>
-                        <div class="small-top-margin">
-                            <p>
-                                API REST:
-                                <a href="github.com/gcba-odin/odin">github.com/gcba-odin/odin</a>
-                            </p>
-                            <p>
-                                Frontend:
-                                <a href="github.com/gcba-odin/odin-frontend">github.com/gcba-odin/odin-frontend</a>
-                            </p>
-                            <p>
-                                Admin:
-                                <a href="github.com/gcba-odin/odin-admin">github.com/gcba-odin/odin-admin</a>
-                            </p>
+                <section id="contact" class="section contact text-center center-block">
+                    <div class="col-sm-11 center-block row-centered col-centered">
+                        <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding pull-left">
+                            <h2 class="title medium-top-margin">¡SUMATE AL EQUIPO!</h2>
+                            <img src="images/cv.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
+                            <span class="text-left">Cargá tu CV
+                                <a href="#">acá</a>
+                            </span>
+
+                            <h2 class="title medium-top-margin">¿NECESITÁS AYUDA PARA INSTALARLO?</h2>
+                            <img src="images/mensaje.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
+                            <span class="text-left">Envianos un mail a
+                                <a href="mailto:ayuda@odin.org">ayuda@odin.org</a>
+                            </span>
                         </div>
+                        <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding pull-right">
+                            <h2 class="title medium-top-margin">RECIBIMOS SUGERENCIAS</h2>
+                            <img src="images/escribinos.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
+                            <span class="text-left">Escribinos a
+                                <a href="mailto:hola@odin.org">hola@odin.org</a>
+                            </span>
 
-                        <div class="medium-top-margin">
-                            <h2 class="title dark-gray small-letter-space">Documentación técnica</h2>
-                            <p>
-                                API REST:
-                                <a href="gcba-odin.github.io/odin-tech-docs/">gcba-odin.github.io/odin-tech-docs/</a>
-                            </p>
-                            <h2 class="title dark-gray small-letter-space">Documentación funcional</h2>
-                            <p>
-                                Frontend:
-                                <a href="github.com/gcba-odin/odin-frontend">Manual de usuario</a>
-                            </p>
-                            <h2 class="title dark-gray small-letter-space">Organización</h2>
-                            <p>
-                                Admin:
-                                <a href="github.com/gcba-odin">github.com/gcba-odin</a>
-                            </p>
                         </div>
-
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <section id="contact" class="section contact text-center center-block">
-                <div class="col-sm-11 center-block row-centered col-centered">
-                    <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding pull-left">
-                        <h2 class="title medium-top-margin">¡SUMATE AL EQUIPO!</h2>
-                        <img src="images/cv.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
-                        <span class="text-left">Cargá tu CV
-                            <a href="#">acá</a>
-                        </span>
-
-                        <h2 class="title medium-top-margin">¿NECESITÁS AYUDA PARA INSTALARLO?</h2>
-                        <img src="images/mensaje.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
-                        <span class="text-left">Envianos un mail a
-                            <a href="mailto:ayuda@odin.org">ayuda@odin.org</a>
-                        </span>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding pull-right">
-                        <h2 class="title medium-top-margin">RECIBIMOS SUGERENCIAS</h2>
-                        <img src="images/escribinos.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
-                        <span class="text-left">Escribinos a
-                            <a href="mailto:hola@odin.org">hola@odin.org</a>
-                        </span>
-
-                    </div>
-                </div>
-            </section>
-
-        </div>
-        <footer id="footer" class="footer vertical-center">
-            <div class="pull-left">
-                Source code available under the
-                <a href="#">
-                    GPL v3 license.</a>
-                <br>
-                Usage of
-                <a href="#">
-                    Open Data Commons.</a>
             </div>
-            <img src="images/odin-small.svg" alt="" class="img-responsive pull-right" style="margin-left:auto;"/>
-        </footer>
-        <!-- /.container -->
+            <footer id="footer" class="footer vertical-center">
+                <div class="pull-left">
+                    Source code available under the
+                    <a href="#">
+                        GPL v3 license.</a>
+                    <br>
+                    Usage of
+                    <a href="#">
+                        Open Data Commons.</a>
+                </div>
+                <img src="images/odin-small.svg" alt="" class="img-responsive pull-right" style="margin-left:auto;"/>
+            </footer>
+            <!-- /.container -->
 
-        <!-- :::SCRIPTS::: -->
-        <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
-        <script src="js/bootstrap.min.js" charset="utf-8"></script>
-        <script type="text/javascript">
-            $(document).ready(function() {
-                // sets active to navbar based on the actual section
-                $('body').scrollspy({target: '#navigation_bar', offset: 150});
+            <!-- :::SCRIPTS::: -->
+            <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
+            <script src="js/bootstrap.min.js" charset="utf-8"></script>
+            <script src="js/jquery.fullPage.min.js" charset="utf-8"></script>
+            <script src="js/jquery.easings.min.js" charset="utf-8"></script>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    // sets active to navbar based on the actual section
+                    $('body').scrollspy({target: '#navigation_bar', offset: 150});
 
-                // smooth scroll to section
-                $('.navbar-nav a, a.navbar-brand').on('click', function(e) {
-                    var el = $(e.target.getAttribute('href'));
-                    var elOffset = el.offset().top;
-                    var elHeight = el.height();
-                    var windowHeight = $(window).height();
-                    var offset;
+                    // smooth scroll to section
+                    $('.navbar-nav a, a.navbar-brand').on('click', function(e) {
+                        var el = $(e.target.getAttribute('href'));
+                        var elOffset = el.offset().top;
+                        var elHeight = el.height();
+                        var windowHeight = $(window).height();
+                        var offset;
 
-                    if (elHeight < windowHeight) {
-                        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
-                    } else {
-                        offset = elOffset;
-                    }
-                    var speed = 700;
-                    $('html, body').animate({
-                        scrollTop: offset
-                    }, speed);
+                        if (elHeight < windowHeight) {
+                            offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+                        } else {
+                            offset = elOffset;
+                        }
+                        var speed = 700;
+                        $('html, body').animate({
+                            scrollTop: offset
+                        }, speed);
+                    });
+
+                    $('#fullpage').fullpage({
+                        sectionSelector: '.section-fp',
+                        slidesNavigation: true,
+                        slidesNavPosition: 'bottom',
+                        autoScrolling: false,
+                        fitToSection: false,
+                        verticalCentered: false,
+                        controlArrows: false
+                    });
+
                 });
+            </script>
 
-            });
-        </script>
-
-    </body>
-</html>
+        </body>
+    </html>

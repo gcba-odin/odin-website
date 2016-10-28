@@ -45,8 +45,8 @@ a:hover {
     letter-spacing: 2px;
     font-family: 'avenir-medium';
     border-color: $primary-color;
-    -moz-border-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
-    -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+    -moz-border-image: -moz-linear-gradient(to bottom right, $secondary-color 0%, $primary-color 100%);
+    -webkit-border-image: -webkit-linear-gradient(to bottom right, $secondary-color 0%, $primary-color 100%);
     border-image: linear-gradient(to bottom right, $secondary-color 0%, $primary-color 100%);
     border-image-slice: 1;
 }
@@ -75,6 +75,7 @@ a:hover {
     width: 6em;
 }
 // Margin when small screen on feature images
+
 .features .col-sm-3 {
     margin-top: $small-distance;
 }
@@ -106,6 +107,15 @@ a:hover {
 @media (max-width: 768px) {
     .gradient-shadow {
         background-repeat: no-repeat;
+    }
+
+    .break {
+        clear: both;
+    }
+
+    .large-sides-padding {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
