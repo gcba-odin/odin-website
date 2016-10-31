@@ -33,13 +33,16 @@
                             <a href="#us">NOSOTROS</a>
                         </li>
                         <li>
-                            <a href="#features">CARACTERÍSTICAS</a>
+                            <a href="#features" class="hidden-xs">CARACTERÍSTICAS</a>
+                            <a href="#features-xs" class="visible-xs">CARACTERÍSTICAS</a>
                         </li>
                         <li>
-                            <a href="#docs">DOCS</a>
+                            <a href="#docs" class="hidden-xs">DOCS</a>
+                            <a href="#docs-xs" class="visible-xs">DOCS</a>
                         </li>
                         <li>
-                            <a href="#contact">CONTACTO</a>
+                            <a href="#contact" class="hidden-xs">CONTACTO</a>
+                            <a href="#contact-xs" class="visible-xs">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
@@ -279,7 +282,7 @@
                     </div>
 
                     <div class="col-sm-12 center-block slide text-left">
-                      <img src="images/mejoras-tecnicas.svg" class="img-responsive center-block large-top-margin"/>
+                        <img src="images/mejoras-tecnicas.svg" class="img-responsive center-block large-top-margin"/>
                         <h2 class="title text-center">MEJORAS TÉCNICAS</h2>
                         <div class="small-top-margin">
                             <p>
@@ -293,7 +296,7 @@
 
                 </section>
 
-                <section id="docs" class="section docs text-center center-block">
+                <section id="docs" class="section docs text-center center-block hidden-xs">
                     <div class="col-sm-11 center-block row-centered col-centered">
                         <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-left">
                             <h2 class="title">¿CÓMO FUNCIONA?</h2>
@@ -374,6 +377,59 @@
                     </div>
                 </section>
 
+                <section id="docs-xs" class="section docs text-center center-block visible-xs">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Collapsible Group Item #1
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a
+                                    bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
+                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Collapsible Group Item #2
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a
+                                    bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
+                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Collapsible Group Item #3
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a
+                                    bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table,
+                                    raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section id="contact" class="section contact text-center center-block hidden-xs">
                     <div class="col-sm-11 center-block row-centered col-centered">
                         <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding pull-left">
@@ -402,7 +458,7 @@
 
                 <section id="contact-xs" class="section-fp contact text-center center-block visible-xs fp-auto-height">
                     <div class="col-sm-12 center-block slide text-center center-block">
-                      <img src="images/cv.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
+                        <img src="images/cv.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
                         <h2 class="title">¡SUMATE AL EQUIPO!</h2>
                         <span class="text-center center-block">Cargá tu CV
                             <a href="#">acá</a>
@@ -410,7 +466,7 @@
                     </div>
 
                     <div class="col-sm-12 center-block slide text-center center-block">
-                      <img src="images/mensaje.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
+                        <img src="images/mensaje.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
                         <h2 class="title">¿NECESITÁS AYUDA PARA INSTALARLO?</h2>
                         <span class="text-center center-block">Envianos un mail a
                             <a href="mailto:ayuda@odin.org">ayuda@odin.org</a>
@@ -418,7 +474,7 @@
                     </div>
 
                     <div class="col-sm-12 center-block slide text-center center-block">
-                      <img src="images/escribinos.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
+                        <img src="images/escribinos.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
                         <h2 class="title">RECIBIMOS SUGERENCIAS</h2>
                         <span class="text-center center-block">Escribinos a
                             <a href="mailto:hola@odin.org">hola@odin.org</a>
