@@ -563,9 +563,10 @@
 
             <!-- :::SCRIPTS::: -->
             <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
+            <script src="js/jquery.easings.min.js" charset="utf-8"></script>
             <script src="js/bootstrap.min.js" charset="utf-8"></script>
             <script src="js/jquery.fullPage.min.js" charset="utf-8"></script>
-            <script src="js/jquery.easings.min.js" charset="utf-8"></script>
+
             <script type="text/javascript">
                 $(document).ready(function() {
                     // sets active to navbar based on the actual section
@@ -594,11 +595,11 @@
                         sectionSelector: '.section-fp',
                         slidesNavigation: true,
                         slidesNavPosition: 'bottom',
-                        scrollBar: true,
+                        // scrollBar: true,
                         autoScrolling: false,
                         fitToSection: false,
-                        verticalCentered: false,
-                        controlArrows: false,
+                        verticalCentered: false
+                        // controlArrows: false,
                     });
 
                 });
