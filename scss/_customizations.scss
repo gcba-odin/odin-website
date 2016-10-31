@@ -110,6 +110,18 @@ p {
     line-height: 1.5em;
 }
 
+// Accordion
+.panel-default, .panel, .panel-default>.panel-heading, .panel-default>.panel-heading+.panel-collapse>.panel-body{
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+  background-color: transparent;
+  border-color: transparent;
+  border-top-color: transparent !important;
+
+
+}
+
 // Fullpage.js
 
 .fp-slidesNav.bottom {

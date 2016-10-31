@@ -52,10 +52,10 @@
   letter-spacing: 1px !important; }
 
 .primary-color {
-  color: #FF386A; }
+  color: #FF386A !important; }
 
 .secondary-color {
-  color: #FFB600; }
+  color: #FFB600 !important; }
 
 .dark-gray {
   color: #666666 !important; }
@@ -161,6 +161,14 @@
 
 p {
   line-height: 1.5em; }
+
+.panel-default, .panel, .panel-default > .panel-heading, .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
+  background-color: transparent;
+  border-color: transparent;
+  border-top-color: transparent !important; }
 
 .fp-slidesNav.bottom {
   bottom: 0px; }
@@ -277,6 +285,19 @@ a:hover {
   .large-sides-padding {
     padding-left: 0;
     padding-right: 0; } }
+
+.separator {
+  border-top: 2px solid #dfdfdf;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.title.secondary-color.collapsed {
+  color: #FFB600 !important;
+  text-decoration: none; }
+
+.title.secondary-color {
+  color: #FF386A !important;
+  text-decoration: none; }
 
 .footer {
   background-color: #EAEAEA;

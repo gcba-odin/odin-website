@@ -119,6 +119,21 @@ a:hover {
     }
 }
 
+.separator {
+    border-top: 2px solid #dfdfdf;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title.secondary-color.collapsed{
+  color: $secondary-color !important;
+  text-decoration: none;
+}
+.title.secondary-color{
+  color: $primary-color !important;
+  text-decoration: none;
+}
+
 .footer {
     background-color: $light-gray;
     min-height: initial;
