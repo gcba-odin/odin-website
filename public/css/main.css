@@ -171,7 +171,9 @@ p {
   border-top-color: transparent !important; }
 
 .fp-slidesNav.bottom {
-  bottom: 0px; }
+  bottom: 0px;
+  margin-left: -56px; }
+
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span, .fp-slidesNav ul li a span:hover {
