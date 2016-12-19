@@ -411,7 +411,7 @@ a:hover {
   margin-top: -20%;
 }
 
-.asd{margin-top: -88px;
+.box-side-right{margin-top: -88px;
      margin-left: 23%;}
 
 .imagensvg{
@@ -422,20 +422,20 @@ a:hover {
 }
 .toptop{margin-top: 4%;}
 
-.parraf{
+.up-content-box{
   display: inline-block;
   margin-top: 55px;
   margin-left: 45px;
   font-size: 17px;
   font-weight: 600;
 }
-.parraf1{
+.up-box-right{
   display: inline-block;
   margin-top: 55px;
   font-size: 17px;
   font-weight: 600;
 }
-.lol{
+.social-red{
     font-size: 18px;
     color: white;
     margin-top: 55px;
@@ -447,7 +447,7 @@ a:hover {
   font-weight: normal;
 }
 
-.lo2{
+.right-side-footer{
   font-size: 18px;
   color: white;
   margin-top: 45px;
