@@ -2,22 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ODIN</title>
 
-    
+
         <!-- :::STYLES::: -->
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
         <link rel="stylesheet" href="fonts/avenir/importer.css" media="screen">
         <link rel="stylesheet" href="css/jquery.fullPage.min.css" media="screen" title="no title">
         <link rel="stylesheet" href="css/main.css" media="screen">
     </head>
-    <body class="bg-split">
+    <body>
         <!-- nav -->
         <nav class="navbar navbar-default navbar-fixed-top" id="navigation_bar">
             <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
+              <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -25,11 +24,17 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#top"><img src="images/odin-logo-color.png" alt="Odin" class="img-responsive logo"/></a>
+                    <div class="col-md-12">
+
+                        <a class="navbar-brand" href="#top"><img src="images/logo ODIN-01.svg" alt="Odin" class="images-top-odin"/></a>
+                        <a class="navbar-brand" href="#top"><img src="images/BA-01.svg" alt="BA" class="images-top-BA"></a>
+                    </div>
                 </div>
+                <div class="color-minibar"></div>
+
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse fix-navbar" id="bs-example-navbar-collapse-1">
 
                     <ul class="nav navbar-nav navbar-right">
                         <li>
@@ -43,7 +48,7 @@
                             <a href="#docs" class="hidden-xs">DOCS</a>
                             <a href="#docs-xs" class="visible-xs">DOCS</a>
                         </li>
-                        <li>
+                        <li style="border-bottom: 0;">
                             <a href="#contact" class="hidden-xs">CONTACTO</a>
                             <a href="#contact-xs" class="visible-xs">CONTACTO</a>
                         </li>
@@ -55,105 +60,103 @@
             <span class="gradient-shadow"></span>
         </nav>
 
-        <div class="container large-top-margin" id="fullpage">
-            <section id="landing" class="section features-landing text-center center-block medium-top-margin">
+        <div class="container-fluid" id="fullpage">
+            <section id="landing" class="row">
                 <!-- <h1 class="hero-title">OPEN DATA INITIATIVE</h1> -->
-                <img src="images/odin-hero.svg" alt="Open Data Initiative" class="img-responsive center-block odin-hero"/>
-                <p class="hero-legend">
-                    Una plataforma de código abierto y uso libre que habilita a los ciudadanos el acceso y uso de catálogos de datos.
-                </p>
-                <p class="hero-legend">
-                    Utiliza nuevas tecnologías ofreciendo una solución integral de gestión de datos.
-                </p>
-                <a href="#" class="btn btn-odin medium-top-margin medium-bottom-margin" style="clear:both;">Probar</a>
-
-                <div class="col-xs-12 center-block row-centered col-centered medium-top-margin">
-                    <div class="col-xs-6 col-sm-3">
-                        <img src="images/datos.svg" class="img-responsive"/>
-                        <p class="text-center small-top-margin">
+                <div class="col-lg-12" style="background-color: #f5f5f5; margin-top: -1.5%;">
+                  <img src="images/odin-hero.svg" alt="Open Data Initiative" class="odin-hero"/>
+                  <p class="hero-legend">
+                      Somos una plataforma de código abierto y de uso libre que habilita a los ciudadanos el acceso y uso <br> de catálogos de datos. Utilizamos nuevas tecnologías ofreciendo una solución integral de gestión de datos.
+                  </p>
+                  <a href="#" class="btn btn-odin medium-top-margin medium-bottom-margin" style="clear:both;">Probar</a>
+                </div>
+                <div class="col-md-6 col-xs-12 center-block row-centered col-centered medium-top-margin" style="background-color:white;">
+                    <div class="fixed-position">
+                        <img src="images/datos.svg" class="fix-icons"/>
+                          <p class="height-fix">
                             Visualización y análisis de datos
-                        </p>
+                          </p>
                     </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <img src="images/modular.svg" class="img-responsive"/>
-                        <p class="text-center small-top-margin">
-                            Modular y escalable
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 break">
-                        <img src="images/acceso.svg" class="img-responsive"/>
-                        <p class="text-center small-top-margin">
+                    <div class="fixed-position">
+                        <img src="images/acceso.svg" class="fix-icons"/>
+                        <p class="height-fix">
                             Control de acceso granular
                         </p>
                     </div>
-                    <div class="col-xs-6 col-sm-3">
-                        <img src="images/conectores.svg" class="img-responsive"/>
-                        <p class="text-center small-top-margin">
-                            Conectores universales
+                    <div class="fixed-position">
+                        <img src="images/cog.svg" class="fix-icons"/>
+                        <p class="fix-top">
+                            Catálogo completo, interfaz <br> intuitiva y potente API
+                        </p>
+                    </div>
+                    <div class="fixed-position">
+                        <img src="images/almacenamiento.svg" class="fix-icons"/>
+                        <p class="fix-top">
+                            Almacenamiento integrado de <br> datos y API completa
                         </p>
                     </div>
                 </div>
 
-                <div class="col-md-9 center-block row-centered col-centered moderate-top-margin">
-                    <div class="col-xs-6 col-sm-4">
-                        <img src="images/cog.svg" class="img-responsive"/>
-                        <p class="text-center small-top-margin">
-                            Plataforma de catálogo completo, interfaz intuitiva y potente API
-                        </p>
+                <div class="col-md-6 col-xs-12 center-block row-centered col-centered medium-top-margin position-right-fix">
+                    <div class="fixed-position">
+                         <img src="images/modular.svg" class="fix-icons"/>
+                           <p class="height-fix">
+                               Modular y escalable
+                           </p>
+                     </div>
+                    <div class="fixed-position">
+                          <img src="images/conectores.svg" class="fix-icons"/>
+                            <p class="height-fix">
+                                Conectores universales
+                            </p>
                     </div>
-                    <div class="col-xs-6 col-sm-4">
-                        <img src="images/workflow.svg" class="img-responsive"/>
-                        <p class="text-center small-top-margin">
-                            El flujo de trabajo permite manejar publicaciones de datos propias
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 pull-left break">
-                        <img src="images/almacenamiento.svg" class="img-responsive"/>
-                        <p class="text-center small-top-margin">
-                            Almacenamiento de datos integrado y API de datos completa
-                        </p>
+                    <div class="fixed-position">
+                        <img src="images/workflow.svg" class="fix-icons"/>
+                           <p class="fix-top">
+                                Administracion de <br> publicaciones de datos
+                          </p>
                     </div>
                 </div>
             </section>
 
             <section id="us" class="section us text-center center-block">
-                <div class="col-sm-11 center-block row-centered col-centered">
-                    <div class="col-xs-12 col-sm-6 col-centered large-sides-padding">
-                        <img src="images/odin-line.svg" class="img-responsive center-block"/>
+                <div class="col-sm-11 center-block row-centered col-centered"  style="margin-top:8em;">
+                    <div class="col-md-6 col-xs-12 col-sm-6 large-sides-padding pull-left toptop">
                         <h2 class="title">¿QUIÉNES SOMOS?</h2>
-                        <p class="small-top-margin">
+                        <p class="small-top-margin parraf1">
                             Una plataforma de código abierto y de uso libre, desarrollada por el Laboratorio de Innovación del Gobierno de la Ciudad de Buenos Aires para publicar y habilitar el uso y descarga de catálogos de datos.
                         </p>
-                        <h2 class="title medium-top-margin">RED SOCIAL</h2>
-                        <span class="text-left">
-                            <a href="https://twitter.com/odin_org" target="_blank">
-                              <img src="images/twitter.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
-                              @Odin_org</a>
-                        </span>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-right">
+
                         <h2 class="title">¿POR QUÉ ODÍN?</h2>
-                        <div class="small-top-margin">
-                            <p>
-                                El nombre es un homenaje al dios nórdico de la sabiduría. Odín desde su trono podía ver todo lo que pasaba en los nueve mundos y tenía dos cuervos que le transmitían el conocimiento que obtenían volando.</p>
+                        <div class="small-top-margin parraf1">
+                            <p>El nombre es un homenaje al dios nórdico de la sabiduría. Odín desde su trono podía ver todo lo que pasaba en los nueve mundos y tenía dos cuervos que le transmitían el conocimiento que obtenían volando.</p>
                             <p>Esta plataforma comparte con el dios mitológico el valor del conocimiento, la disposición al entendimiento y la constante búsqueda de información y herramientas que ayudan a su organización.</p>
-                            <p>Abre catálogos de datos generados por el sector privado, el público y el tercer sector fomentando transparencia gubernamental y participación de los ciudadanos. Además impulsa el desarrollo de políticas, productos y servicios basados en datos
-                                e innovación.</p>
+                            <p>Abre catálogos de datos generados por el sector privado, el público y el tercer sector fomentando transparencia gubernamental y participación de los ciudadanos. Además impulsa el desarrollo de políticas, productos y servicios basados en datos e innovación.</p>
                         </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 col-sm-6 large-sides-padding pull-right">
+                        <h2 class="title medium-top-margin" style="margin-left: 30%;">RED SOCIAL</h2>
+                        <span class="text-left">
+                            <p style="margin-top:35px;">Tweets por
+                              <a href="https://twitter.com/odin_org" target="_blank">
+                                @Odin_org
+                              </a>
+                            </p>
+                        </span>
                     </div>
                 </div>
             </section>
 
-            <section id="features" class="section features text-center center-block hidden-xs">
-                <div class="col-sm-11 center-block row-centered col-centered">
-                    <div class="col-xs-12 col-sm-6 col-centered large-sides-padding">
-                        <img src="images/usabilidad.svg" class="img-responsive center-block"/>
-                        <h2 class="title text-center">USABILIDAD</h2>
-                        <div class="small-top-margin">
+            <section id="features" class="section features text-center hidden-xs">
+                <div class="col-sm-11 row-centered col-centered top-section">
+                    <div class="col-xs-12 col-sm-6 large-sides-padding pull-left">
+                        <img src="images/usabilidad.svg" class="imagensvg"/>
+                        <h2 class="title text-center h2">Usabilidad</h2>
+                        <div class="small-top-margin fix-p">
 
-                            <div class="small-top-margin">
+                            <div class="small-top-margin parraf">
                                 <p>
-                                    - La plataforma cuenta con un administrador que hace más fácil e intuitivo el manejo del contenido.
+                                    - Cuenta con un administrador que hace más fácil e intuitivo el manejo del contenido.
                                 </p>
                                 <p>
                                     - La estética de la aplicación es amable al ciudadano, le permite encontrar datos de manera fácil y rápida.
@@ -161,56 +164,54 @@
                             </div>
                         </div>
 
-                        <br>
-
-                        <img src="images/concepto.svg" class="img-responsive center-block large-top-margin"/>
-                        <h2 class="title text-center">NUEVO CONCEPTO DE DATASET</h2>
-                        <div class="small-top-margin">
+                        <img src="images/calidad.svg" class="imagensvg large-top-margin"/>
+                        <h2 class="title text-center h2">Calidad de datos</h2>
+                        <div class="small-top-margin parraf">
                             <p>
-                                - Un dataset que engloba todos los recursos.
+                                - Permite normalizar organizaciones.
                             </p>
                             <p>
-                                - Los archivos son almacenados en la base de datos, permitiendo buscar datasets por el contenido de los archivos.
+                                - Mejor presentación de la información.
                             </p>
                             <p>
-                                - Los datasets y recursos tienen una propiedad llamada estado que hace más fácil publicar y ocultar información.
+                                - Genera mapas tanto desde un CSV, XLS, XLSX, JSON o embebidos.
                             </p>
                             <p>
-                                - Integra campos por defecto, lo cual permite su búsqueda, filtrado y tratamiento.
+                                - Permite incluir gráficos desde plataformas que generen iframes.
                             </p>
                             <p>
-                                - Mayor granularidad en la actualización de la información reflejandose en las fechas de los recursos según la entidad actualizada.
+                                - Un mismo archivo puede mostrarse de diferentes formatos: mapa, gráfico, tabla y/o pdf.
                             </p>
                         </div>
                     </div>
 
-                    <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-right">
-                        <img src="images/calidad.svg" class="img-responsive center-block"/>
-                        <h2 class="title text-center">CALIDAD DE DATOS</h2>
+                    <div class="col-xs-12 col-sm-6 large-sides-padding pull-right">
+                        <img src="images/concepto.svg" class="imagensvg"/>
+                        <h2 class="title text-center asd">Nuevo concepto de dataset</h2>
                         <div class="small-top-margin">
 
-                            <div class="small-top-margin">
+                            <div class="small-top-margin parraf">
                                 <p>
-                                    - Permite normalizar organizaciones.
+                                    - Un dataset que engloba todos los recursos.
                                 </p>
                                 <p>
-                                    - Mejor presentación de la información.
+                                    - Los archivos son almacenados en la base de datos, permitiendo buscar datasets por el contenido de los archivos.
                                 </p>
                                 <p>
-                                    - Genera mapas tanto desde un CSV, XLS, XLSX, JSON o embebidos.
+                                    - Los datasets y recursos tiene una propiedad llamada estado que hace mas facil publicar y ocultar informacion.
                                 </p>
                                 <p>
-                                    - Permite incluir gráficos desde plataformas que generen iframes.
+                                    - Integra campos por defecto, lo cual permite su busqueda, filtrado y tratamiento.
                                 </p>
                                 <p>
-                                    - Un mismo archivo puede mostrarse de diferentes formatos: mapa, gráfico, tabla y/o pdf.
+                                    - Mayor granularidad en la actualizacion de la informacion reflejandose en las fechas de los recursos segun la entidad actualizada.
                                 </p>
                             </div>
                         </div>
 
-                        <img src="images/mejoras-tecnicas.svg" class="img-responsive center-block large-top-margin"/>
-                        <h2 class="title text-center">MEJORAS TÉCNICAS</h2>
-                        <div class="small-top-margin">
+                        <img src="images/mejoras-tecnicas.svg" class="imagensvg large-top-margin"/>
+                        <h2 class="title text-center asd">Mejoras tecnicas</h2>
+                        <div class="small-top-margin parraf">
                             <p>
                                 - La arquitectura utilizada permite crear diferentes aplicaciones utilizando la API.
                             </p>
@@ -266,7 +267,7 @@
                     <h2 class="title text-center">CALIDAD DE DATOS</h2>
                     <div class="small-top-margin">
 
-                        <div class="small-top-margin">
+                        <div class="small-top-margin text-p">
                             <p>
                                 - Permite normalizar organizaciones.
                             </p>
@@ -301,16 +302,16 @@
                 </section>
 
                 <section id="docs" class="section docs text-center center-block hidden-xs">
-                    <div class="col-sm-11 center-block row-centered col-centered">
+                    <div class="col-sm-11 center-block row-centered col-centered top-section">
                         <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-left">
                             <h2 class="title">¿CÓMO FUNCIONA?</h2>
-                            <p class="small-top-margin">
+                            <p class="small-top-margin parraf">
                                 Mediante un administrador que controla y publica datos y una API que permite el acceso a información desde aplicaciones externas. Odín se encuentra bajo la licencia GPL.
                             </p>
 
-                            <h2 class="title medium-top-margin small-letter-space">Tecnologías para el desarrollo de Odín:</h2>
+                            <h2 class="title medium-top-margin small-letter-space">TECNOLOGIAS PARA EL DESARROLLO DE ODIN:</h2>
                             <div class="redes">
-                                <div class="small-top-margin">
+                                <div class="small-top-margin parraf">
                                     <p>
                                         - API Rest creada con Sails.js, framework de NodeJS.
                                     </p>
@@ -332,9 +333,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-right">
-                            <h2 class="title small-letter-space">Conexiones</h2>
-                            <div class="small-top-margin">
+                        <div class="col-xs-12 col-sm-6 col-centered large-sides-padding pull-right move-div">
+                            <h2 class="title small-letter-space">CONEXIONES</h2>
+                            <div class="small-top-margin parraf">
                                 <p>
                                     Web Services (Rest y Soap)
                                 </p>
@@ -343,8 +344,8 @@
                                 </p>
                             </div>
 
-                            <h2 class="title small-letter-space">Recursos y links</h2>
-                            <div class="small-top-margin">
+                            <h2 class="title small-letter-space">RECURSOS Y LINKS</h2>
+                            <div class="small-top-margin parraf">
                                 <p>
                                     API REST:
                                     <a href="github.com/gcba-odin/odin">github.com/gcba-odin/odin</a>
@@ -359,8 +360,8 @@
                                 </p>
                             </div>
 
-                            <div class="medium-top-margin">
-                                <h2 class="title dark-gray small-letter-space">Documentación técnica</h2>
+                            <div class="medium-top-margin parraf">
+                                <h2 class="title dark-gray small-letter-space">DOCUMENTACION TECNICA</h2>
                                 <p>
                                     API REST:
                                     <a href="gcba-odin.github.io/odin-tech-docs/">gcba-odin.github.io/odin-tech-docs/</a>
@@ -510,7 +511,7 @@
                                 <a href="mailto:ayuda@odin.org">ayuda@odin.org</a>
                             </span>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding pull-right">
+                        <div class="col-xs-12 col-sm-6 col-centered medium-sides-padding pull-right move-div">
                             <h2 class="title medium-top-margin">RECIBIMOS SUGERENCIAS</h2>
                             <img src="images/escribinos.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
                             <span class="text-left">Escribinos a
@@ -523,25 +524,25 @@
 
                 <section id="contact-xs" class="section-fp contact text-center center-block visible-xs fp-auto-height">
                     <div class="col-sm-12 center-block slide text-center center-block">
-                        <img src="images/cv.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
+                        <img src="images/cv.svg" alt="twitter" class="img-responsive" style="display:inline; width:12em;"/>
                         <h2 class="title">¡SUMATE AL EQUIPO!</h2>
-                        <span class="text-center center-block">Cargá tu CV
+                        <span class="text-center center-block span-fix">Cargá tu CV
                             <a href="#">acá</a>
                         </span>
                     </div>
 
                     <div class="col-sm-12 center-block slide text-center center-block">
-                        <img src="images/mensaje.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
+                        <img src="images/mensaje.svg" alt="twitter" class="img-responsive" style="display:inline; width:12em;"/>
                         <h2 class="title">¿NECESITÁS AYUDA PARA INSTALARLO?</h2>
-                        <span class="text-center center-block">Envianos un mail a
+                        <span class="text-center center-block span-fix">Envianos un mail a
                             <a href="mailto:ayuda@odin.org">ayuda@odin.org</a>
                         </span>
                     </div>
 
-                    <div class="col-sm-12 center-block slide text-center center-block">
-                        <img src="images/escribinos.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
+                    <div class="col-sm-12 center-block slide text-center center-block textmove">
+                        <img src="images/escribinos.svg" alt="twitter" class="img-responsive" style="display:inline; width:12em;"/>
                         <h2 class="title">RECIBIMOS SUGERENCIAS</h2>
-                        <span class="text-center center-block">Escribinos a
+                        <span class="text-center center-block span-fix">Escribinos a
                             <a href="mailto:hola@odin.org">hola@odin.org</a>
                         </span>
                     </div>
@@ -549,17 +550,41 @@
                 </section>
 
             </div>
-            <footer id="footer" class="footer vertical-center">
-                <div class="pull-left">
-                    Source code available under the
-                    <a href="#">
-                        GPL v3 license.</a>
-                    <br>
-                    Usage of
-                    <a href="#">
-                        Open Data Commons.</a>
+
+        </div>
+
+            <footer>
+              <div class="footer">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                      <img src="images/BuenosAiresCiudad_footer-01.svg" alt="" style="margin-top: 40px; margin-left: 30px;">
+                      <!-- <a class="navbar-brand bac-footer" href="http://www.buenosaires.gob.ar" target="_blank">Buenos Aires Ciudad</a> -->
+                      <h4 class="lol">Redes sociales</h4>
+                      <span class="text-left">
+                        <a href="https://twitter.com/odin_org" target="_blank">
+                          <img src="images/TWITTER-01.svg" alt="twitter" class="" style="margin-left: 35px; margin-top: 15px;"/>
+                        </a>
+                      </span>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                      <div class="" style="margin-left:50px;">
+                        <p class="lo2">Acerca de este sitio<br/>
+                          <span class="text-muted">Source code available under the GPL v3 license.</span><br>
+                          <span>
+                            <img src="images/gpl3-01.svg" alt="GPL">
+                            <img src="images/okfn-logo-landscape.png" alt="" style="width: 133px; margin-left: 25px;">
+                          </span>
+                        </p>
+                        <p class="lo2">
+                          Direccion General de Innovacion y Gobierno Abierto.<br>
+                          <span class="text-muted">Ministerio de Modernizacion</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <img src="images/odin-small.svg" alt="" class="img-responsive pull-right" style="margin-left:auto;"/>
+              </div>
             </footer>
             <!-- /.container -->
 
@@ -598,7 +623,7 @@
                         slidesNavigation: true,
                         normalScrollElements: '.slide',
                         slidesNavPosition: 'bottom',
-                        // scrollBar: true,
+                        scrollBar: true,
                         fitToSection: false,
                         verticalCentered: false,
                         controlArrows: false,

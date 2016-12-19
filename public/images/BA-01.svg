@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="106.167px" height="57.167px" viewBox="0 0 106.167 57.167" enable-background="new 0 0 106.167 57.167"
+	 xml:space="preserve">
+<g>
+	<text transform="matrix(1 0 0 1 89.4297 34.4487)"><tspan x="0" y="0" fill="#3E3E3D" font-family="'Chalet-NewYorkNineteenEighty'" font-size="19.1301"> </tspan><tspan x="5.548" y="0" fill="#3E3E3D" font-family="'Chalet-NewYorkNineteenEighty'" font-size="19.1301"> </tspan></text>
+	<text transform="matrix(1 0 0 1 89.4297 50.4224)"><tspan x="0" y="0" fill="#3E3E3D" font-family="'Chalet-NewYorkNineteenEighty'" font-size="19.1301"> </tspan><tspan x="5.548" y="0" fill="#3E3E3D" font-family="'Chalet-NewYorkNineteenEighty'" font-size="19.1301"> </tspan></text>
+	
+		<text transform="matrix(1 0 0 1 100.4868 50.4224)" fill="#3E3E3D" font-family="'Chalet-NewYorkNineteenEighty'" font-size="19.1301"> </text>
+	<g>
+		<defs>
+			<path id="SVGID_1_" d="M75.26,0.936h-0.005c-4.099,0-7.635,2.348-9.361,5.778L51.813,33.916
+				c-1.572-2.794-4.079-4.995-7.102-6.175c3.376-2.443,5.574-6.421,5.574-10.914c0-5.202-2.956-9.71-7.276-11.942
+				C39.202,2.878,34.854,1.75,30.248,1.75H9.191c-4.332,0-7.829,3.5-7.829,7.822v39.189c0,4.32,3.497,7.822,7.829,7.822h7.603
+				h15.169c4.392,0,8.568-0.908,12.363-2.531l1.442-0.699c0.083-0.039,0.161-0.082,0.237-0.122c1.368,2.268,3.849,3.794,6.699,3.794
+				c3.167,0,5.899-1.879,7.127-4.594c0.611-1.433,1.994-2.447,3.632-2.523h23.595c1.636,0.076,3.017,1.09,3.631,2.523
+				c1.227,2.714,3.961,4.594,7.127,4.594c4.327,0,7.823-3.507,7.823-7.817c0-1.404-0.361-2.718-1.011-3.849l-20-38.645
+				c-1.729-3.43-5.263-5.778-9.364-5.778H75.26z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-707.0688" y1="1486.1982" x2="-706.1344" y2="1486.1982" gradientTransform="matrix(0 -37.9884 37.9884 0 -56404.7969 -26807.1992)">
+			<stop  offset="0" style="stop-color:#63ADE6"/>
+			<stop  offset="0.0493" style="stop-color:#73B5E0"/>
+			<stop  offset="0.1456" style="stop-color:#9EC9D1"/>
+			<stop  offset="0.2124" style="stop-color:#BFD9C5"/>
+			<stop  offset="0.3457" style="stop-color:#DEE6B3"/>
+			<stop  offset="0.4164" style="stop-color:#F0EDA9"/>
+			<stop  offset="0.5346" style="stop-color:#F0E896"/>
+			<stop  offset="0.773" style="stop-color:#EFDC65"/>
+			<stop  offset="1" style="stop-color:#EFCF31"/>
+			<stop  offset="1" style="stop-color:#F2D131"/>
+		</linearGradient>
+		<rect x="1.362" y="0.936" clip-path="url(#SVGID_2_)" fill="url(#SVGID_3_)" width="104.277" height="56.089"/>
+	</g>
+</g>
+</svg>
