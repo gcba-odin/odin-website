@@ -51,13 +51,17 @@ a:hover {
     border-image-slice: 1;
 }
 
-.hero-legend {
-    font-family: 'avenir-light', sans-serif;
-    font-size: 1.7rem;
+.characteristics{
+  background: #FFF;
 }
 
-.odin-hero {
-    width: initial !important;
+.contact img {
+    margin-left: -1em;
+    width: 6em;
+}
+
+.features .col-sm-3 {
+    margin-top: $small-distance;
 }
 
 .features-landing img {
@@ -70,23 +74,6 @@ a:hover {
     margin: auto;
 }
 
-.contact img {
-    margin-left: -1em;
-    width: 6em;
-}
-// Margin when small screen on feature images
-
-.features .col-sm-3 {
-    margin-top: $small-distance;
-}
-
-.title {
-    font-family: 'avenir-black';
-    font-size: 1.2em;
-    color: $primary-color;
-    letter-spacing: 2px;
-}
-
 .gradient-shadow {
     display: block;
     margin-top: 0;
@@ -97,6 +84,16 @@ a:hover {
     opacity: 0.6;
 }
 
+.hero-legend {
+    font-family: 'avenir-light', sans-serif;
+    font-size: 1.7rem;
+}
+
+.landing-header{
+  background-color: #f5f5f5;
+  margin-top: -1.5%;
+}
+
 .navbar-default {
     background-color: transparent;
 }
@@ -104,6 +101,18 @@ a:hover {
 .navbar-default .container-fluid {
     background-color: white;
 }
+
+.odin-hero {
+    width: initial !important;
+}
+
+.title {
+    font-family: 'avenir-black';
+    font-size: 1.2em;
+    color: $primary-color;
+    letter-spacing: 2px;
+}
+
 @media (max-width: 768px) {
     .gradient-shadow {
         background-repeat: no-repeat;
