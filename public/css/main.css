@@ -300,6 +300,9 @@ a:hover {
     background-repeat: no-repeat; }
   .break {
     clear: both; }
+  .images-top-BA {
+    margin-left: 56em;
+  }
   .large-sides-padding {
     padding-left: 0;
     padding-right: 0; } }
@@ -447,7 +450,7 @@ a:hover {
   font-weight: normal;
 }
 
-.right-side-footer{
+.right-side-footerx{
   font-size: 18px;
   color: white;
   margin-top: 45px;
