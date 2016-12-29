@@ -94,10 +94,3 @@ font-style: normal;
 font-weight: normal;
 src: local('avenir-Oblique'), url('AvenirLTStd-Oblique.woff') format('woff');
 }
-
-@font-face{
-  font-family: 'Chalet';
-  font-style: medium;
-  font-weight: medium;
-  src: local('Chalet'), url('ChaletLondonNineteenEighty.ttf') format('ttf');
-  }
