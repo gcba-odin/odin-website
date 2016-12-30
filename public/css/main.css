@@ -117,21 +117,28 @@
     float: none;
     display: table; }
 
+
   .navbar-default .container-fluid {
     background-color: #fcda59!important; }
 
   .footer {height: 420px!important;}
   .navbar-odin{background-color: white;}
-  .section-top{background-color: #f5f5f5; margin-top: 1.5%;}
-  .size-col{width: 118%; margin-left: -27px; background-color: #F1F1F1;}
+
+  .section-top{
+     background-color: #f5f5f5;
+     margin-top: -48%;
+     width: 107%;
+     margin-left: -12px;}
+  /*.size-col{width: 118%; margin-left: -27px; background-color: #F1F1F1;}*/
 
   .BA-logo {
     width: 3.3em;
     margin-left: 175px;
     margin-top: 7px;}
+
   .logo-ba{
     width: 3em;
-    margin-left: 15em;
+    margin-left: 280px;
     margin-top: -40px;
   }
   .twitter-footer {
@@ -154,7 +161,7 @@
     margin-left: -25px;
     margin-top: 18px;}
 
-  .odin-line{display: none;}
+  /*.odin-line{display: none;}*/
   .red-social {
     margin-left: 100px;
     margin-top: 27px;
@@ -169,8 +176,8 @@
 
   .up-red-social {margin-top: 35px;}
   .odin-mini {width: 2.5em;}
-  .column-top {margin-top: 30px;}
-  .column-up {margin-top: -173px;}
+  .column-top {margin-top: 33px;}
+  .column-up {margin-top: -171px;}
   .social-icon {margin-left: 106px;}
   img {vertical-align: baseline;}
   .twitter-01 {
@@ -178,7 +185,7 @@
     margin-left: 185px;
     vertical-align: super;}
   .position-h4 {margin-top: -40px; margin-left: 55px;}
-  .sections {margin-top: 5em;}}
+  .sections {margin-top: 5em; text-align: center;} }
 
 @media (min-width: 768px) and (max-width: 992px) {
   .navbar-nav > li > a {
@@ -265,7 +272,14 @@ section {
 
 @media (min-width: 768px) {
   section {
-    min-height: 80vh !important; } }
+    min-height: 80vh !important; }
+  .logo-nav{max-width: 20%;}
+
+  .features p, img {
+    display: inline-block!important;}
+  .features img {
+    margin-right: 20px;
+    margin-left: 10px;} }
 
 a {
   color: #FFB600;
@@ -285,14 +299,23 @@ a:hover {
 
 .hero-legend {
   font-family: 'avenir-light', sans-serif;
-  font-size: 1.7rem; }
+  font-size: 1.7rem;
+  float: left;
+  text-align: left;}
 
 .odin-hero {
-  width: initial !important; }
+  margin-top: 25vh !important;
+  float: left;
+  margin-left: -15px;}
 
+
+
+/*.landing-color-section{
+  background-color: #E5E5E5;}*/
+/*
 .features-landing img {
   width: 6em;
-  margin: auto; }
+  margin: auto; }*/
 
 .features img {
   width: 12em;
