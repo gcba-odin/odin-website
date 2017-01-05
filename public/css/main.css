@@ -69,8 +69,7 @@
   float: none;
   /* reset the text-align */
   text-align: left;
-  /* inline-block space fix */
-  margin-right: -4px; }
+  /* inline-block space fix */ }
 
 .vertical-center {
   min-height: 100%;
@@ -117,19 +116,23 @@
     float: none;
     display: table; }
 
-
   .navbar-default .container-fluid {
     background-color: #fcda59!important; }
 
   .footer {height: 420px!important;}
+
   .navbar-odin{background-color: white;}
 
-  .section-top{
-     background-color: #f5f5f5;
-     margin-top: -48%;
-     width: 107%;
-     margin-left: -12px;}
-  /*.size-col{width: 118%; margin-left: -27px; background-color: #F1F1F1;}*/
+  .section-top{background-color: #f5f5f5;
+     margin-top: 1.5%;}
+
+  .size-col{width: 118%;
+    margin-left: -27px;
+    background-color: #F1F1F1;}
+
+  .moving-box {
+    width: 8em;
+    margin-left: 0px;}
 
   .BA-logo {
     width: 3.3em;
@@ -138,11 +141,11 @@
 
   .logo-ba{
     width: 3em;
-    margin-left: 280px;
-    margin-top: -40px;
-  }
+    margin-left: 15.5em;
+    margin-top: -40px;}
+
   .twitter-footer {
-    margin-left: 42px;
+    margin-left: 30px;
     margin-top: 10px;}
 
   .okfn-logo {
@@ -158,41 +161,168 @@
   .right-side-footer {
     color: white;
     text-align: center;
-    margin-left: -25px;
+    margin-left: 0px;
     margin-top: 18px;}
 
-  /*.odin-line{display: none;}*/
   .red-social {
-    margin-left: 100px;
+    margin-left: 93px;
     margin-top: 27px;
     color: white;}
+
   .nav-div{
     background-color: #fcda59;
     width: 33em;
-    height: 44px;}
+    height: 44px!important;}
+
   .logo-nav{
     width: 6em;
-    margin-left: 0em;}
+    margin-left: 0px;}
+
+  .section-color{
+    margin-top: -10em;
+    margin-left: -28px;
+    margin-right: -28px;}
 
   .up-red-social {margin-top: 35px;}
+
   .odin-mini {width: 2.5em;}
-  .column-top {margin-top: 33px;}
-  .column-up {margin-top: -171px;}
-  .social-icon {margin-left: 106px;}
-  img {vertical-align: baseline;}
+
+  .social-icon {margin-left: 110px;}
+
+  .up-content {width: 8em;
+    margin-top: 40px;}
+
+  .odin-hero {margin-left: 2px!important;}
+
+  .fp-slidesNav.bottom{
+    margin-left: -56px!important;}
+
+  .right-side-footer {
+    color: white;
+    text-align: center;
+    margin-top: 18px;}
+
   .twitter-01 {
     display: inline;
-    margin-left: 185px;
-    vertical-align: super;}
-  .position-h4 {margin-top: -40px; margin-left: 55px;}
-  .sections {margin-top: 5em; text-align: center;} }
+    margin-left: 200px;
+    width: 2.2em;}
+
+  .moving-down{
+    width: 8em;
+    margin-left: 0px;}
+
+  .position-h4 {
+    margin-top: -40px;
+    margin-left: 55px;}
+
+  .sections {margin-top: 5em;}}
 
 @media (min-width: 768px) and (max-width: 992px) {
   .navbar-nav > li > a {
     padding-left: 0.8em;
-    padding-right: 0.8em; } }
+    padding-right: 0.8em; }
+
+  .section-color {
+    background-color: #F5F5F5;
+    margin-left: -27px;
+    margin-right: -27px;
+    margin-top: -120px;}
+
+  .small-top-margin{
+    margin-top: 1.5em;
+    margin-left: 17px;}
+
+  .medium-top-margin {
+    margin-top: 8em}
+
+  .features img.img-large {
+    width: 10em;
+    margin-left: 90px;}
+
+  .social-icon {margin-left: 90px;}
+
+
+  .red-social {
+    margin-left: 85px;
+    margin-top: -85px;
+    color: white;}
+
+  .twitter-footer {
+    margin-left: 35px;
+    margin-top: 10px;}
+
+  .position-h4{
+    margin-top: -31px;
+    margin-left: 55px;}
+
+  .okfn-logo {
+    width: 8em;
+    margin-left: 22px;
+    margin-top: 27px;}
+
+  .twitter-01{
+    margin-left: 245px;
+    width: 2.5em;
+    display: inline-block;}
+
+  .icon-BA {
+    margin-top: 25px;
+    margin-left: 25px;}
+
+  .logo-ba {
+    width: 4em;
+    margin-top: -55px!important;
+    margin-left: 36em!important;}
+
+  .col-centered{ float: inherit;}
+
+  .moving-box {
+    width: 8em;
+    margin:0 auto;
+    display: block;}
+
+
+
+  .section-text{
+    display: block!important;}
+
+  .right-side-footer {
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 18px;}
+
+  .logo-nav{
+    margin-left: 10px!important;
+    width: 9em;}
+
+  .nav-div {
+    background-color: #fcda59;
+    width: 60em;
+    height: 20px;}
+
+  .contact img {width: 8em;}
+
+  .navbar-right {
+    margin-right: 25px!important;
+    margin-top: 15px!important;}}
 
 @media (min-width: 992px) {
+
+  .red-social {
+    margin-left: 85px;
+    margin-top: -85px;
+    color: white;}
+
+  .logo-nav{
+    margin-left: 128px;
+    width: 12em;}
+
+  .logo-ba {
+    width: 5em;
+    margin-left: 75.5em;
+    margin-top: -79px;}
+
   .nav > li > a {
     padding-right: 30px;
     padding-left: 30px; } }
@@ -228,9 +358,7 @@
   padding: 0; }
 
 p {
-    line-height: 1.5em;
-    font-size: 15px;
-    font-weight: 600;}
+  line-height: 1.5em;}
 
 .panel-default, .panel, .panel-default > .panel-heading, .panel-default > .panel-heading + .panel-collapse > .panel-body {
   box-shadow: none;
@@ -265,21 +393,11 @@ p {
 
 section {
   margin-top: 10em;
-  margin-bottom: 5em;
   padding: 2em;
   background-color: rgba(255, 255, 255, 0.7);
-  min-height: 80vh !important; }
+  min-height: 80vh !important;
+}
 
-@media (min-width: 768px) {
-  section {
-    min-height: 80vh !important; }
-  .logo-nav{max-width: 20%;}
-
-  .features p, img {
-    display: inline-block!important;}
-  .features img {
-    margin-right: 20px;
-    margin-left: 10px;} }
 
 a {
   color: #FFB600;
@@ -292,37 +410,46 @@ a:hover {
 .btn-odin {
   color: #ffbb00;
   background-color: #FEFEFE;
-  padding: 0.6em 3.5em;
+  padding: 0.6em 5.5em;
   font-size: 1.2em;
   letter-spacing: 2px;
-  font-family: 'avenir-medium'; }
+  font-family: 'avenir-medium';
+  font-weight: 600;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+}
 
 .hero-legend {
   font-family: 'avenir-light', sans-serif;
   font-size: 1.7rem;
-  float: left;
-  text-align: left;}
-
+  float:left;
+  text-align: left;
+}
+.font-class{
+  font-family: 'avenir-light', sans-serif;
+  font-weight: 600;
+}
 .odin-hero {
-  margin-top: 25vh !important;
-  float: left;
-  margin-left: -15px;}
+  width: initial !important; }
 
-
-
-/*.landing-color-section{
-  background-color: #E5E5E5;}*/
-/*
-.features-landing img {
+/*.features-landing img {
   width: 6em;
-  margin: auto; }*/
+  margin: auto;
+}*/
+
+.img-odin-hero{
+  margin-left: -15px;
+}
 
 .features img {
   width: 12em;
-  margin: auto; }
+  margin: auto;
+}
 
 .contact img {
-  width: 14em; }
+  width: 8em; }
 
 .features .col-sm-3 {
   margin-top: 1em; }
@@ -346,6 +473,43 @@ a:hover {
 .navbar-default .container-fluid {
   background-color: white; }
 
+.odin-hero{
+  margin-top: 20vh !important;
+  float: left;
+  margin-left: -15px;
+}
+
+.section-color{
+  background-color: #F5F5F5;
+}
+
+@media (min-width: 768px) {
+  section {
+    min-height: 80vh !important;
+  }
+  /*.features p, img{
+    display: inline;
+  }*/
+
+  .features img{
+    display: inline;
+    margin: auto 20px 40px auto;
+    width: 6em;
+  }
+
+  .title-top {margin-top: 85px;}
+  .title-up {
+    margin-top: -50px;
+    margin-left: 18px;}
+  .features img.img-large{
+    width: 10em;
+  }
+  .logo-nav{
+    max-width: 20%;
+  }
+  .section-text{
+    display: inline;}}
+
 @media (max-width: 768px) {
   .gradient-shadow {
     background-repeat: no-repeat; }
@@ -357,8 +521,9 @@ a:hover {
 
 .separator {
   border-top: 2px solid #dfdfdf;
-  margin-top: 10px;
-  margin-bottom: 10px; }
+  /*margin-top: 10px;*/
+  /*margin-bottom: 10px; */
+}
 
 .title.secondary-color.collapsed {
   color: #FFB600 !important;
@@ -407,3 +572,32 @@ a:hover {
 .navbar-right {
   margin-right: 125px;
   margin-top: 40px;}
+
+.nav-div {
+  background-color: #fcda59;
+  width: 122em;
+  height: 20px;}
+
+
+.section-color {
+    background-color: #F5F5F5;
+    margin-left: -27px;
+    margin-right: -27px;}
+
+.odin-hero{
+    margin-top: 12vh !important;
+    float: left;
+    margin-left: -15px;}
+
+
+.moving-box {
+  width: 8em;
+  margin:0 auto;
+  display: block;}
+
+.right-side-footer {
+  color: white;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 18px;
+}
