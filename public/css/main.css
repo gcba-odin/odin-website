@@ -156,7 +156,7 @@
   .icon-BA {
     margin-top: 25px;
     width: 200px;
-    margin-left: 60px;}
+    margin-left: 50px!important;}
 
   .right-side-footer {
     color: white;
@@ -190,17 +190,12 @@
   .social-icon {margin-left: 110px;}
 
   .up-content {width: 8em;
-    margin-top: 40px;}
+    margin-top: 60px;}
 
   .odin-hero {margin-left: 2px!important;}
 
   .fp-slidesNav.bottom{
     margin-left: -56px!important;}
-
-  .right-side-footer {
-    color: white;
-    text-align: center;
-    margin-top: 18px;}
 
   .twitter-01 {
     display: inline;
@@ -221,7 +216,7 @@
   .navbar-nav > li > a {
     padding-left: 0.8em;
     padding-right: 0.8em; }
-
+  .docs-top{margin-top: 80px;}
   .section-color {
     background-color: #F5F5F5;
     margin-left: -27px;
@@ -309,9 +304,29 @@
 
 @media (min-width: 992px) {
 
+  .right-side-footer {
+    color: white;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 40px}
+
+  .okfn-logo {
+    width: 133px;
+    margin-left: 25px;
+    margin-top: 27px;}
+
+  .icon-BA {
+    margin-top: 25px;
+    width: 270px;
+    margin-left: -32px;}
+
+  .twitter-footer {
+    margin-left: 20px;
+    margin-top: 15px;}
+
   .red-social {
-    margin-left: 85px;
-    margin-top: -85px;
+    margin-left: -20px;
+    margin-top: -100px;
     color: white;}
 
   .logo-nav{
@@ -548,10 +563,6 @@ a:hover {
 
 .move-block {margin-left: 50px;}
 
-.icon-BA {
-  margin-top: 25px;
-  width: 200px;
-  margin-left: 60px;}
 
 .social-red{
   font-size: 18px;
@@ -591,13 +602,6 @@ a:hover {
 
 
 .moving-box {
-  width: 8em;
-  margin:0 auto;
-  display: block;}
-
-.right-side-footer {
-  color: white;
-  text-align: center;
-  margin-left: 0px;
-  margin-top: 18px;
-}
+    width: 8em;
+    margin:0 auto;
+    display: block;}
