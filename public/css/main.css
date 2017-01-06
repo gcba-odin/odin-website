@@ -115,6 +115,9 @@
     margin: auto;
     float: none;
     display: table; }
+  p {
+    line-height: 1.5em;
+    font-family: 'avenir-light', sans-serif;}
 
   .navbar-default .container-fluid {
     background-color: #fcda59!important; }
@@ -132,7 +135,7 @@
 
   .moving-box {
     width: 8em;
-    margin-left: 0px;}
+    margin-left: -15px;}
 
   .BA-logo {
     width: 3.3em;
@@ -164,6 +167,11 @@
     margin-left: 0px;
     margin-top: 18px;}
 
+  .catalogo{
+    width: 8em;
+    margin-top: 43px;
+    margin-left: -15px;
+  }
   .red-social {
     margin-left: 93px;
     margin-top: 27px;
@@ -173,6 +181,12 @@
     background-color: #fcda59;
     width: 33em;
     height: 44px!important;}
+
+  .hero-legend {
+    font-family: 'avenir-light', sans-serif;
+    font-size: 1.6rem;
+    float:left;
+    text-align: left;}
 
   .logo-nav{
     width: 6em;
@@ -195,7 +209,7 @@
   .odin-hero {margin-left: 2px!important;}
 
   .fp-slidesNav.bottom{
-    margin-left: -56px!important;}
+    margin-left: -50px!important;}
 
   .twitter-01 {
     display: inline;
@@ -205,6 +219,11 @@
   .moving-down{
     width: 8em;
     margin-left: 0px;}
+
+  .title{
+    font-family: 'avenir-black';
+    font-size: 15px;}
+  .font-size{font-size: 1.5rem;}
 
   .position-h4 {
     margin-top: -40px;
@@ -216,6 +235,10 @@
   .navbar-nav > li > a {
     padding-left: 0.8em;
     padding-right: 0.8em; }
+  .title {
+    font-family: 'avenir-black';
+    font-size: 1.1em;
+    letter-spacing: 2px; }
   .docs-top{margin-top: 80px;}
   .section-color {
     background-color: #F5F5F5;
@@ -236,6 +259,8 @@
 
   .social-icon {margin-left: 90px;}
 
+  .catalogo{
+    width: 8em;}
 
   .red-social {
     margin-left: 85px;
@@ -276,7 +301,11 @@
     margin:0 auto;
     display: block;}
 
-
+  .hero-legend {
+    font-family: 'avenir-light', sans-serif;
+    font-size: 2.4rem;
+    float:left;
+    text-align: left;}
 
   .section-text{
     display: block!important;}
@@ -303,6 +332,35 @@
     margin-top: 15px!important;}}
 
 @media (min-width: 992px) {
+
+  .font-size{
+    font-size: 1.9rem;}
+
+  .down-text{margin-top: 65px;}
+  p {
+    line-height: 1.5em;
+    font-family: 'avenir-light', sans-serif;
+    font-size: 2.1em;}
+  .title {
+    font-family: 'avenir-black';
+    font-size: 2.1em;
+    letter-spacing: 2px; }
+
+  .hero-legend {
+    font-family: 'avenir-light', sans-serif;
+    font-size: 2.4rem;
+    float:left;
+    text-align: left;}
+
+  .twitter-01 {
+    display: inline;
+    margin-left: 200px;
+    width: 2.2em;}
+
+  .moving-box {
+    width: 8em;
+    margin-top: 50px;
+    display: block;}
 
   .right-side-footer {
     color: white;
@@ -335,15 +393,15 @@
 
   .logo-ba {
     width: 5em;
-    margin-left: 75.5em;
-    margin-top: -79px;}
+    margin-left: 73.5em;
+    margin-top: -75px;}
 
   .nav > li > a {
     padding-right: 30px;
     padding-left: 30px; } }
 
-.navbar-default .navbar-nav > li > a {
-  color: #FFB600; }
+/*.navbar-default .navbar-nav > li > a {
+  color: #FFB600; }*/
 
 .navbar-default .navbar-nav > li > a:active,
 .navbar-default .navbar-nav > li > a:hover {
@@ -372,8 +430,7 @@
 .navbar-brand {
   padding: 0; }
 
-p {
-  line-height: 1.5em;}
+
 
 .panel-default, .panel, .panel-default > .panel-heading, .panel-default > .panel-heading + .panel-collapse > .panel-body {
   box-shadow: none;
@@ -382,9 +439,6 @@ p {
   background-color: transparent;
   border-color: transparent;
   border-top-color: transparent !important; }
-
-.fp-slidesNav.bottom {
-  margin-left: -56px;}
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span, .fp-slidesNav ul li a span:hover {
@@ -417,7 +471,6 @@ section {
 a {
   color: #FFB600;
   text-decoration: none; }
-
 a:hover {
   color: #FF386A;
   text-decoration: none; }
@@ -436,16 +489,11 @@ a:hover {
   width: 100px;
 }
 
-.hero-legend {
-  font-family: 'avenir-light', sans-serif;
-  font-size: 1.7rem;
-  float:left;
-  text-align: left;
-}
-.font-class{
-  font-family: 'avenir-light', sans-serif;
+
+/*.font-class{
+  font-family: 'Chalet-Sixty';
   font-weight: 600;
-}
+}*/
 .odin-hero {
   width: initial !important; }
 
@@ -462,17 +510,16 @@ a:hover {
   width: 12em;
   margin: auto;
 }
-
 .contact img {
-  width: 8em; }
+  width: 11em; }
 
 .features .col-sm-3 {
   margin-top: 1em; }
 
-.title {
+/*.title {
   font-family: 'avenir-black';
   font-size: 1.2em;
-  letter-spacing: 2px; }
+  letter-spacing: 2px; }*/
 
 .gradient-shadow {
   display: block;
@@ -601,7 +648,7 @@ a:hover {
     margin-left: -15px;}
 
 
-.moving-box {
+/*.moving-box {
     width: 8em;
     margin:0 auto;
-    display: block;}
+    display: block;}*/
