@@ -16,6 +16,7 @@
   font-weight: 400;
   font-style: normal; }
 
+
 .medium-top-margin {
   margin-top: 4em; }
 
@@ -82,6 +83,9 @@
 .navbar > .container .navbar-brand,
 .navbar > .container-fluid .navbar-brand {
   margin-left: 35px; }
+
+.title{
+  font-family: 'Chalet-Eighty' !important;}
 
 @media (min-width: 320px) and (max-width: 765px) {
   .navbar > .container-fluid .navbar-collapse,
@@ -221,7 +225,7 @@
     margin-left: 0px;}
 
   .title{
-    font-family: 'avenir-black';
+    /*font-family: 'Chalet-Eighty' !important;*/
     font-size: 15px;}
   .font-size{font-size: 1.5rem;}
 
@@ -339,15 +343,21 @@
   .down-text{margin-top: 65px;}
   p {
     line-height: 1.5em;
-    font-family: 'avenir-light', sans-serif;
+    /*font-family: 'avenir-light', sans-serif;*/
     font-size: 2.1em;}
   .title {
-    font-family: 'avenir-black';
-    font-size: 2.1em;
-    letter-spacing: 2px; }
+    /*font-family: 'avenir-black';*/
+    font-size: 16px;
+    /*letter-spacing: 2px;*/
+    text-align: left;
+    margin-left: 20px;
+  }
+  .text-characteristics{
+    display: inline-block;
+  }
 
   .hero-legend {
-    font-family: 'avenir-light', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2.4rem;
     float:left;
     text-align: left;}
@@ -358,9 +368,9 @@
     width: 2.2em;}
 
   .moving-box {
-    width: 8em;
-    margin-top: 50px;
-    display: block;}
+    width: 5em;
+    /*margin-top: 40px;*/
+    display: inline-block;}
 
   .right-side-footer {
     color: white;
