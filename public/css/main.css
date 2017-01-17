@@ -16,6 +16,10 @@
   font-weight: 400;
   font-style: normal; }
 
+body {
+  color:#56565e;}
+
+
 
 .medium-top-margin {
   margin-top: 4em; }
@@ -84,8 +88,12 @@
 .navbar > .container-fluid .navbar-brand {
   margin-left: 35px; }
 
-.title{
-  font-family: 'Chalet-Eighty' !important;}
+.title {
+  font-family: 'Chalet-Eighty';}
+
+.title-style {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;}
 
 @media (min-width: 320px) and (max-width: 765px) {
   .navbar > .container-fluid .navbar-collapse,
@@ -121,7 +129,7 @@
     display: table; }
   p {
     line-height: 1.5em;
-    font-family: 'avenir-light', sans-serif;}
+    font-family: 'Open Sans', sans-serif;}
 
   .navbar-default .container-fluid {
     background-color: #fcda59!important; }
@@ -133,13 +141,13 @@
   .section-top{background-color: #f5f5f5;
      margin-top: 1.5%;}
 
-  .size-col{width: 118%;
+  .size-col{
+    width: 118%;
     margin-left: -27px;
     background-color: #F1F1F1;}
 
   .moving-box {
-    width: 8em;
-    margin-left: -15px;}
+    width: 8em;}
 
   .BA-logo {
     width: 3.3em;
@@ -161,7 +169,7 @@
     margin-top: 27px;}
 
   .icon-BA {
-    margin-top: 25px;
+    margin-top: 30px;
     width: 200px;
     margin-left: 50px!important;}
 
@@ -173,9 +181,8 @@
 
   .catalogo{
     width: 8em;
-    margin-top: 43px;
-    margin-left: -15px;
-  }
+    margin-top: 43px;}
+
   .red-social {
     margin-left: 93px;
     margin-top: 27px;
@@ -227,6 +234,7 @@
   .title{
     /*font-family: 'Chalet-Eighty' !important;*/
     font-size: 15px;}
+
   .font-size{font-size: 1.5rem;}
 
   .position-h4 {
@@ -263,17 +271,17 @@
 
   .social-icon {margin-left: 90px;}
 
+  .red-social{
+    color: white;
+    margin-top: -50px;
+    margin-left: 30px;}
+
   .catalogo{
     width: 8em;}
 
-  .red-social {
-    margin-left: 85px;
-    margin-top: -85px;
-    color: white;}
-
   .twitter-footer {
-    margin-left: 35px;
-    margin-top: 10px;}
+    margin-left: -30px;
+    margin-top: 15px;}
 
   .position-h4{
     margin-top: -31px;
@@ -337,21 +345,52 @@
 
 @media (min-width: 992px) {
 
+  .up-column{ margin-top: 93px; }
+
+  .okfn-logo {
+    width: 8em;
+    margin-left: 22px;
+    margin-top: 27px;}
+
+  .up-red-social { margin-top: 35px;}
+
+  .logo-nav{
+    margin-left: 128px;
+    width: 12em;}
+
+  .red-social {
+    margin-left: 85px;
+    margin-top: -85px;
+    color: white;}
+
+  .logo-ba {
+    width: 5em;
+    margin-left: 73.5em;
+    margin-top: -75px;}
+
+  .position-h4 {
+    margin-top: -45px;
+    margin-left: 55px;}
+
   .font-size{
     font-size: 1.9rem;}
 
   .down-text{margin-top: 65px;}
+
   p {
     line-height: 1.5em;
     /*font-family: 'avenir-light', sans-serif;*/
-    font-size: 2.1em;}
+    font-size: 1.5em;}
+
   .title {
-    /*font-family: 'avenir-black';*/
-    font-size: 16px;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-size: 1.5em;
     /*letter-spacing: 2px;*/
     text-align: left;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
   }
+  .size-title{ font-size: 28px; }
+
   .text-characteristics{
     display: inline-block;
   }
@@ -374,37 +413,23 @@
 
   .right-side-footer {
     color: white;
-    text-align: center;
-    margin-left: 0px;
-    margin-top: 40px}
-
-  .okfn-logo {
-    width: 133px;
-    margin-left: 25px;
-    margin-top: 27px;}
+    /*text-align: center;
+    margin-left: 0px;*/
+    margin-top: 35px;}
 
   .icon-BA {
     margin-top: 25px;
     width: 270px;
-    margin-left: -32px;}
+    margin-left: 100px;}
 
   .twitter-footer {
-    margin-left: 20px;
+    margin-left: 110px;
     margin-top: 15px;}
 
   .red-social {
-    margin-left: -20px;
-    margin-top: -100px;
+    margin-left: 100px;
+    margin-top: -135px;
     color: white;}
-
-  .logo-nav{
-    margin-left: 128px;
-    width: 12em;}
-
-  .logo-ba {
-    width: 5em;
-    margin-left: 73.5em;
-    margin-top: -75px;}
 
   .nav > li > a {
     padding-right: 30px;
@@ -489,9 +514,9 @@ a:hover {
   color: #ffbb00;
   background-color: #FEFEFE;
   padding: 0.6em 5.5em;
-  font-size: 1.2em;
+  font-size: 1.6em;
   letter-spacing: 2px;
-  font-family: 'avenir-medium';
+  font-family: 'Chalet-Eighty';
   font-weight: 600;
   margin: 20px auto;
   display: flex;
@@ -504,8 +529,8 @@ a:hover {
   font-family: 'Chalet-Sixty';
   font-weight: 600;
 }*/
-.odin-hero {
-  width: initial !important; }
+/*.odin-hero {
+  width: initial !important; }*/
 
 /*.features-landing img {
   width: 6em;
@@ -545,11 +570,11 @@ a:hover {
 .navbar-default .container-fluid {
   background-color: white; }
 
-.odin-hero{
+/*.odin-hero{
   margin-top: 20vh !important;
   float: left;
   margin-left: -15px;
-}
+}*/
 
 .section-color{
   background-color: #F5F5F5;
@@ -570,6 +595,7 @@ a:hover {
   }
 
   .title-top {margin-top: 85px;}
+
   .title-up {
     margin-top: -50px;
     margin-left: 18px;}
@@ -580,7 +606,8 @@ a:hover {
     max-width: 20%;
   }
   .section-text{
-    display: inline;}}
+    display: inline;
+    font-size: 28px;}}
 
 @media (max-width: 768px) {
   .gradient-shadow {
@@ -614,7 +641,7 @@ a:hover {
 .footer {
   background-color: #333333;
   min-height: initial;
-  height: 300px;
+  height: 350px;
   padding-left: 1em;
   padding-right: 1em;}
 
@@ -655,7 +682,8 @@ a:hover {
 .odin-hero{
     margin-top: 12vh !important;
     float: left;
-    margin-left: -15px;}
+    margin-left: -15px;
+    width: 70em;}
 
 
 /*.moving-box {
