@@ -16,8 +16,7 @@
   font-weight: 400;
   font-style: normal; }
 
-body {
-  color:#56565e;}
+body { color:#56565e; }
 
 
 
@@ -140,12 +139,26 @@ body {
 
   .section-top{background-color: #f5f5f5;
      margin-top: 1.5%;}
+  .top-margin { margin-top: 125px; }
+  .top-gpl {
+    width: 6em;
+    margin-top: 26px;
+    margin-left: 50px;}
 
-  .size-col{
+  .top-dgiga { margin-top: -235px;}
+
+  .top-MM {
+    margin-top: -15px;
+    margin-left: 60px;
+    color: #fff;}
+
+
+
+  /*.size-col{
     width: 118%;
     margin-left: -27px;
-    background-color: #F1F1F1;}
-
+    background-color: #F1F1F1;}*/
+  .almacenamiento { margin-top: 16px; }
   .moving-box {
     width: 8em;}
 
@@ -154,104 +167,119 @@ body {
     margin-left: 175px;
     margin-top: 7px;}
 
-  .logo-ba{
+  .logo-ba {
     width: 3em;
     margin-left: 15.5em;
-    margin-top: -40px;}
+    margin-top: -40px; }
 
   .twitter-footer {
     margin-left: 30px;
-    margin-top: 10px;}
+    margin-top: 10px; }
 
   .okfn-logo {
     width: 133px;
     margin-left: 25px;
-    margin-top: 27px;}
+    margin-top: 27px; }
 
   .icon-BA {
     margin-top: 30px;
     width: 200px;
-    margin-left: 50px!important;}
+    margin-left: 50px!important; }
 
   .right-side-footer {
     color: white;
     text-align: center;
-    margin-left: 0px;
-    margin-top: 18px;}
+    margin-left: 0px; }
 
   .catalogo{
     width: 8em;
-    margin-top: 43px;}
+    margin-top: 22px; }
 
   .red-social {
-    margin-left: 93px;
-    margin-top: 27px;
-    color: white;}
+    margin-left: 110px;
+    margin-top: 110px;
+    color: white;
+    font-size: 15px;}
 
-  .nav-div{
+  .nav-div {
     background-color: #fcda59;
     width: 33em;
-    height: 44px!important;}
+    height: 44px!important; }
 
   .hero-legend {
     font-family: 'avenir-light', sans-serif;
     font-size: 1.6rem;
     float:left;
-    text-align: left;}
+    text-align: left; }
 
-  .logo-nav{
+  .logo-nav {
     width: 6em;
-    margin-left: 0px;}
+    margin-left: 0px; }
 
-  .section-color{
+  .section-color {
     margin-top: -10em;
     margin-left: -28px;
-    margin-right: -28px;}
+    margin-right: -28px; }
 
-  .up-red-social {margin-top: 35px;}
+  .up-red-social { margin-top: 35px; }
 
-  .odin-mini {width: 2.5em;}
+  .odin-mini { width: 2.5em; }
 
-  .social-icon {margin-left: 110px;}
+  .social-icon { margin-left: 110px; }
 
-  .up-content {width: 8em;
-    margin-top: 60px;}
+  .up-content { width: 8em;
+    margin-top: 60px; }
 
-  .odin-hero {margin-left: 2px!important;}
+  .odin-hero { margin-left: 2px!important; }
 
-  .fp-slidesNav.bottom{
-    margin-left: -50px!important;}
+  .fp-slidesNav.bottom { bottom: 5px; }
 
   .twitter-01 {
     display: inline;
-    margin-left: 200px;
-    width: 2.2em;}
+    margin-left: 220px;
+    margin-top: -40px;
+    width: 2.2em; }
 
-  .moving-down{
+  .moving-down {
     width: 8em;
-    margin-left: 0px;}
+    margin-left: 0px; }
 
-  .title{
+  .title {
     /*font-family: 'Chalet-Eighty' !important;*/
-    font-size: 15px;}
+    font-size: 15px; }
 
-  .font-size{font-size: 1.5rem;}
+  .font-size{ font-size: 1.5rem; }
 
   .position-h4 {
-    margin-top: -40px;
-    margin-left: 55px;}
+    margin-top: -55px;
+    margin-left: 55px; }
 
   .sections {margin-top: 5em;}}
 
 @media (min-width: 768px) and (max-width: 992px) {
+
+  .move-legend { margin-right: 160px;}
+  .top-column {margin-top: -80px;}
+
+
+  .text-right {
+    color: white;
+    margin-left: 2px;}
+  p {
+    font-size: 17px;
+    font-family: 'Open sans', sans-serif;}
+
   .navbar-nav > li > a {
     padding-left: 0.8em;
     padding-right: 0.8em; }
+
   .title {
     font-family: 'avenir-black';
     font-size: 1.1em;
     letter-spacing: 2px; }
-  .docs-top{margin-top: 80px;}
+
+  /*.docs-top{margin-top: 80px;}*/
+
   .section-color {
     background-color: #F5F5F5;
     margin-left: -27px;
@@ -273,7 +301,7 @@ body {
 
   .red-social{
     color: white;
-    margin-top: -50px;
+    margin-top: -150px;
     margin-left: 30px;}
 
   .catalogo{
@@ -302,9 +330,9 @@ body {
     margin-left: 25px;}
 
   .logo-ba {
-    width: 4em;
-    margin-top: -55px!important;
-    margin-left: 36em!important;}
+    width: 5em;
+    margin-top: -60px;
+    margin-left: 35em!important;}
 
   .col-centered{ float: inherit;}
 
@@ -317,7 +345,7 @@ body {
     font-family: 'avenir-light', sans-serif;
     font-size: 2.4rem;
     float:left;
-    text-align: left;}
+    text-align: center;}
 
   .section-text{
     display: block!important;}
@@ -325,8 +353,11 @@ body {
   .right-side-footer {
     color: white;
     text-align: center;
-    margin-left: 0px;
-    margin-top: 18px;}
+    margin-left: -153px;
+    margin-top: 45px;}
+
+  .move-text-footer {
+    margin-left: -8px;}
 
   .logo-nav{
     margin-left: 10px!important;
@@ -345,12 +376,23 @@ body {
 
 @media (min-width: 992px) {
 
+
+  .move-legend { margin-right: 160px;}
+
+  .docs-top{margin-top: 80px; line-height: 60px;}
+  .contact {
+    font-family: 'Open sans', sans-serif;
+    font-size: 18px;}
+
+  .text-right {
+    color: white;
+    margin-left: -10px;}
+
   .up-column{ margin-top: 93px; }
 
   .okfn-logo {
     width: 8em;
-    margin-left: 22px;
-    margin-top: 27px;}
+    margin-left: 30px;}
 
   .up-red-social { margin-top: 35px;}
 
@@ -365,17 +407,23 @@ body {
 
   .logo-ba {
     width: 5em;
-    margin-left: 73.5em;
-    margin-top: -75px;}
+    margin-left: 73.5em!important;
+    margin-top: -80px;}
 
   .position-h4 {
     margin-top: -45px;
-    margin-left: 55px;}
+    margin-left: 55px;
+    color: #000000;
+    font-weight: 600;}
 
-  .font-size{
-    font-size: 1.9rem;}
+  .style-account{
+    color: #56565e;
+    font-size: 20px;
+    font-weight: 100;}
 
-  .down-text{margin-top: 65px;}
+  .font-size{ font-size: 1.9rem;}
+
+  .down-text{ margin-top: 65px;}
 
   p {
     line-height: 1.5em;
@@ -413,8 +461,8 @@ body {
 
   .right-side-footer {
     color: white;
-    /*text-align: center;
-    margin-left: 0px;*/
+    /*text-align: center;*/
+    margin-left: -19px;
     margin-top: 35px;}
 
   .icon-BA {
@@ -424,7 +472,8 @@ body {
 
   .twitter-footer {
     margin-left: 110px;
-    margin-top: 15px;}
+    margin-top: 15px;
+    width: 3.2em;}
 
   .red-social {
     margin-left: 100px;
@@ -546,7 +595,7 @@ a:hover {
   margin: auto;
 }
 .contact img {
-  width: 11em; }
+  width: 9em; }
 
 .features .col-sm-3 {
   margin-top: 1em; }
@@ -581,35 +630,46 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  section {
+  .logo-ba { margin-left: 61em!important;}
+
+
+  .logo-nav { margin-left: 90px;}
+  /*section {
     min-height: 80vh !important;
-  }
+  }*/
   /*.features p, img{
     display: inline;
   }*/
 
-  .features img{
+  .features img {
     display: inline;
     margin: auto 20px 40px auto;
-    width: 6em;
-  }
+    width: 6em;}
 
   .title-top {margin-top: 85px;}
 
   .title-up {
     margin-top: -50px;
     margin-left: 18px;}
+
   .features img.img-large{
-    width: 10em;
-  }
+    width: 10em;}
+
   .logo-nav{
-    max-width: 20%;
-  }
+    max-width: 20%;}
+
   .section-text{
     display: inline;
     font-size: 28px;}}
 
 @media (max-width: 768px) {
+
+
+  .logo-ba {
+    width: 5em;
+    margin-left: 73.5em!important;
+    margin-top: -80px;} }
+
   .gradient-shadow {
     background-repeat: no-repeat; }
   .break {
@@ -618,11 +678,17 @@ a:hover {
     padding-left: 0;
     padding-right: 0; } }
 
+@media (max-width: 992px){
+
+  .logo-ba {
+    width: 5em;
+    margin-left: 73.5em!important;
+    margin-top: -80px;} }
+
 .separator {
   border-top: 2px solid #dfdfdf;
   /*margin-top: 10px;*/
-  /*margin-bottom: 10px; */
-}
+  /*margin-bottom: 10px; */}
 
 .title.secondary-color.collapsed {
   color: #FFB600 !important;
@@ -647,20 +713,19 @@ a:hover {
 
 .move-block {margin-left: 50px;}
 
-
-.social-red{
+.social-red {
   font-size: 18px;
   color: white;
   margin-top: 55px;
   margin-left: 30px;
   font-weight: 600;}
 
-.nav-set-div{
+.nav-set-div {
   background-color: #fcda59;
   width: 122em;
   height: 10px;}
 
-.BA-logo{
+.BA-logo {
   margin-left: 55em;
   margin-top: 20px;}
 
@@ -679,7 +744,7 @@ a:hover {
     margin-left: -27px;
     margin-right: -27px;}
 
-.odin-hero{
+.odin-hero {
     margin-top: 12vh !important;
     float: left;
     margin-left: -15px;
