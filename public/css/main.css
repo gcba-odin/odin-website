@@ -158,6 +158,9 @@ body { color:#56565e; }
     width: 118%;
     margin-left: -27px;
     background-color: #F1F1F1;}*/
+
+
+
   .almacenamiento { margin-top: 16px; }
   .moving-box {
     width: 8em;}
@@ -191,9 +194,9 @@ body { color:#56565e; }
     text-align: center;
     margin-left: 0px; }
 
-  .catalogo{
+  .catalogo {
     width: 8em;
-    margin-top: 22px; }
+    margin-top: 13px; }
 
   .red-social {
     margin-left: 110px;
@@ -232,7 +235,9 @@ body { color:#56565e; }
 
   .odin-hero { margin-left: 2px!important; }
 
-  .fp-slidesNav.bottom { bottom: 5px; }
+  .fp-slidesNav.bottom {
+    bottom: 5px;
+    margin-left: -51px!important }
 
   .twitter-01 {
     display: inline;
@@ -246,7 +251,7 @@ body { color:#56565e; }
 
   .title {
     /*font-family: 'Chalet-Eighty' !important;*/
-    font-size: 15px; }
+        font-size: 15px; }
 
   .font-size{ font-size: 1.5rem; }
 
@@ -257,6 +262,14 @@ body { color:#56565e; }
   .sections {margin-top: 5em;}}
 
 @media (min-width: 768px) and (max-width: 992px) {
+  /*.top-gpl {
+    width: 6em;
+    margin-top: 26px;
+    margin-left: 50px;}*/
+
+  .catalogo {
+    margin-top: 2px;
+    margin-left: 50px;}
 
   .move-legend { margin-right: 160px;}
   .top-column {margin-top: -80px;}
@@ -265,6 +278,7 @@ body { color:#56565e; }
   .text-right {
     color: white;
     margin-left: 2px;}
+
   p {
     font-size: 17px;
     font-family: 'Open sans', sans-serif;}
@@ -278,61 +292,67 @@ body { color:#56565e; }
     font-size: 1.1em;
     letter-spacing: 2px; }
 
-  /*.docs-top{margin-top: 80px;}*/
+  .docs-top{margin-top: 200px;}
+
+
+  .logo-ba {
+    width: 5em;
+    margin-left: 35em!important;
+    margin-top: -60px; }
 
   .section-color {
     background-color: #F5F5F5;
     margin-left: -27px;
     margin-right: -27px;
-    margin-top: -120px;}
+    margin-top: -120px; }
 
-  .small-top-margin{
+  .small-top-margin {
     margin-top: 1.5em;
-    margin-left: 17px;}
+    margin-left: 17px; }
 
   .medium-top-margin {
-    margin-top: 8em}
+    margin-top: 8em }
 
   .features img.img-large {
     width: 10em;
-    margin-left: 90px;}
+    margin-left: 90px; }
 
-  .social-icon {margin-left: 90px;}
+  .social-icon { margin-left: 90px; }
 
-  .red-social{
+  .red-social {
     color: white;
     margin-top: -150px;
-    margin-left: 30px;}
+    margin-left: 30px; }
 
-  .catalogo{
-    width: 8em;}
+  .catalogo {
+    width: 8em; }
 
   .twitter-footer {
     margin-left: -30px;
-    margin-top: 15px;}
+    margin-top: 15px; }
 
-  .position-h4{
+  .position-h4 {
     margin-top: -31px;
-    margin-left: 55px;}
+    margin-left: 55px; }
 
   .okfn-logo {
     width: 8em;
     margin-left: 22px;
-    margin-top: 27px;}
+    margin-top: 5px; }
 
-  .twitter-01{
+  .twitter-01 {
     margin-left: 245px;
     width: 2.5em;
-    display: inline-block;}
+    display: inline-block; }
 
   .icon-BA {
     margin-top: 25px;
-    margin-left: 25px;}
+    margin-left: 25px; }
 
-  .logo-ba {
+  /*.logo-ba {
     width: 5em;
-    margin-top: -60px;
-    margin-left: 35em!important;}
+    margin-left: 60.5em!important;
+    margin-top: -80px;}*/
 
   .col-centered{ float: inherit;}
 
@@ -375,7 +395,22 @@ body { color:#56565e; }
     margin-top: 15px!important;}}
 
 @media (min-width: 992px) {
+  .cog {
+    width: 7em;
+    margin-top: 40px;
+    margin-left: -6px; }
 
+  .cog-style {
+    margin-top: -77px;
+    margin-left: 110px;}
+  .catalogo {
+    margin-top: -70px;
+    margin-left: 110px;}
+
+  .logo-ba {
+    width: 5em;
+    margin-left: 74em!important;
+    margin-top: -80px;}
 
   .move-legend { margin-right: 160px;}
 
@@ -386,7 +421,8 @@ body { color:#56565e; }
 
   .text-right {
     color: white;
-    margin-left: -10px;}
+    margin-left: -10px;
+    display: flex;}
 
   .up-column{ margin-top: 93px; }
 
@@ -405,10 +441,6 @@ body { color:#56565e; }
     margin-top: -85px;
     color: white;}
 
-  .logo-ba {
-    width: 5em;
-    margin-left: 73.5em!important;
-    margin-top: -80px;}
 
   .position-h4 {
     margin-top: -45px;
@@ -437,11 +469,12 @@ body { color:#56565e; }
     text-align: left;
     /*margin-left: 20px;*/
   }
-  .size-title{ font-size: 28px; }
+  .size-title { font-size: 28px; }
 
-  .text-characteristics{
-    display: inline-block;
-  }
+  .text-characteristics {
+    display: block;
+    margin-left: 110px;
+    margin-top: -50px; }
 
   .hero-legend {
     font-family: 'Open Sans', sans-serif;
@@ -451,23 +484,23 @@ body { color:#56565e; }
 
   .twitter-01 {
     display: inline;
-    margin-left: 200px;
+    margin-left: 275px;
     width: 2.2em;}
 
   .moving-box {
-    width: 5em;
-    /*margin-top: 40px;*/
+    width: 6em;
+    margin-top: 50px;
     display: inline-block;}
 
   .right-side-footer {
     color: white;
     /*text-align: center;*/
-    margin-left: -19px;
+    margin-left: -16px;
     margin-top: 35px;}
 
   .icon-BA {
     margin-top: 25px;
-    width: 270px;
+    width: 300px;
     margin-left: 100px;}
 
   .twitter-footer {
@@ -630,10 +663,11 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-  .logo-ba { margin-left: 61em!important;}
+
 
 
   .logo-nav { margin-left: 90px;}
+
   /*section {
     min-height: 80vh !important;
   }*/
@@ -664,12 +698,6 @@ a:hover {
 
 @media (max-width: 768px) {
 
-
-  .logo-ba {
-    width: 5em;
-    margin-left: 73.5em!important;
-    margin-top: -80px;} }
-
   .gradient-shadow {
     background-repeat: no-repeat; }
   .break {
@@ -678,12 +706,6 @@ a:hover {
     padding-left: 0;
     padding-right: 0; } }
 
-@media (max-width: 992px){
-
-  .logo-ba {
-    width: 5em;
-    margin-left: 73.5em!important;
-    margin-top: -80px;} }
 
 .separator {
   border-top: 2px solid #dfdfdf;
@@ -745,11 +767,10 @@ a:hover {
     margin-right: -27px;}
 
 .odin-hero {
-    margin-top: 12vh !important;
+    margin-top: 8vh !important;
     float: left;
     margin-left: -15px;
     width: 70em;}
-
 
 /*.moving-box {
     width: 8em;
