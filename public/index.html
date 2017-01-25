@@ -7,33 +7,35 @@
         <title>ODIN</title>
 
         <!-- :::STYLES::: -->
+        <link rel="stylesheet" href="js/jquery.min.js">
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
         <link rel="stylesheet" href="fonts/avenir/importer.css" media="screen">
         <link rel="stylesheet" href="css/jquery.fullPage.min.css" media="screen" title="no title">
         <link rel="stylesheet" href="css/main.css" media="screen">
+        <link rel="stylesheet" media="screen and (device-height: 1366px)">
     </head>
     <body>
          <!-- nav -->
          <nav class="navbar navbar-default navbar-fixed-top" id="navigation_bar">
              <div class="container-wrap">
                  <!-- Brand and toggle get grouped for better mobile display -->
-                 <div class="navbar-header">
-                   <div class="col-md-12 col-xs-12 nav-div">
-                       <a class="navbar-brand" href="#top"></a>
-                   </div>
-                   <div class="col-md-12 col-xs-12" style="background-color:white;">
-                       <a class="navbar-brand" href="#top"><img src="images/odin-logo-color.png" alt="Odin" class="img-responsive logo-nav"/><img src="images/BA-01.svg" alt="BA" class="logo-ba"></a>
-                   </div>
-                 </div>
+                  <div class="navbar-header">
+                     <div class="col-md-12 col-xs-12 nav-div">
+                         <a class="navbar-brand" href="#top"></a>
+                     </div>
+                     <div class="col-md-12 col-xs-12" style="background-color:white;">
+                         <a class="navbar-brand" href="#top"><img src="images/odin-logo-color.png" alt="Odin" class="img-responsive logo-nav"/><img src="images/BA-01.svg" alt="BA" class="logo-ba"></a>
+                     </div>
+                  </div>
 
                  <!-- Collect the nav links, forms, and other content for toggling -->
-                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="margin-left: 322px; margin-top:-90px;">
+                  <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" style="margin-left: 322px; margin-top:-90px;">
                      <span class="sr-only">Toggle navigation</span>
                      <span class="icon-bar" style="background-color:#000000;"></span>
                      <span class="icon-bar" style="background-color:#000000;"></span>
                      <span class="icon-bar" style="background-color:#000000;"></span>
-                 </button>
-                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 " style="background-color:white; height:1px;">
+                 </button> -->
+                 <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 " style="background-color:white; height:1px;">
 
                      <ul class="nav navbar-nav navbar-right">
                          <li>
@@ -53,7 +55,36 @@
                          </li>
                      </ul>
 
-                 </div>
+                 </div> -->
+                 <div class="navbar navbar-default navbar-fixed-top" role="navigation" aria-expanded="true">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse" aria-expanded="false" style="margin-left: 322px; margin-top: 4px;">
+                       <span class="sr-only">Toggle navigation</span>
+                       <span class="icon-bar" style="background-color: #000000;"></span>
+                       <span class="icon-bar" style="background-color: #000000;"></span>
+                       <span class="icon-bar" style="background-color: #000000;"></span>
+                    </button>
+                    </div>
+                    <div class="collapse navbar-collapse navbar-ex1-collapse">
+                       <ul class="nav navbar-nav pull-right" style="margin-top: 45px; background-color: #fff;">
+                         <li>
+                             <a href="#us">NOSOTROS</a>
+                         </li>
+                         <li>
+                             <a href="#features" class="hidden-xs">CARACTERÍSTICAS</a>
+                             <a href="#features-xs" class="visible-xs">CARACTERÍSTICAS</a>
+                         </li>
+                         <li>
+                             <a href="#docs" class="hidden-xs">DOCS</a>
+                             <a href="#docs-xs" class="visible-xs">DOCS</a>
+                         </li>
+                         <li>
+                             <a href="#contact" class="hidden-xs">CONTACTO</a>
+                             <a href="#contact-xs" class="visible-xs">CONTACTO</a>
+                         </li>
+                       </ul>
+                    </div>
+                  </div>
                  <!-- /.navbar-collapse -->
              </div>
              <!-- /.container-fluid -->
@@ -115,11 +146,11 @@
                 <div class="col-sm-12 col-lg-12 center-block row-centered col-centered sections">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-centered  up-column">
                         <!-- <img src="images/odin-line.svg" class="img-responsive center-block odin-line"/> -->
-                        <h2 class="asd size-title">¿Quienes somos?</h2>
+                        <h2 class="change-font size-title">¿Quienes somos?</h2>
                         <p class="small-top-margin">
                             Una plataforma de código abierto y de uso libre, desarrollada por el Laboratorio de Innovación del Gobierno de la Ciudad de Buenos Aires para publicar y habilitar el uso y descarga de catálogos de datos.
                         </p>
-                        <h2 class="title-top size-title asd top-margin">¿Por que Odin?</h2>
+                        <h2 class="title-top size-title change-font top-margin">¿Por que Odin?</h2>
                         <div class="small-top-margin">
                             <p>
                                 El nombre es un homenaje al dios nórdico de la sabiduría. Odín desde su trono podía ver todo lo que pasaba en los nueve mundos y tenía dos cuervos que le transmitían el conocimiento que obtenían volando.</p>
@@ -131,7 +162,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-centered pull-right">
                       <div class="col-md-6 col-lg-12 top-column">
-                        <h2 class="size-title asd social-title">Red Social</h2>
+                        <h2 class="size-title change-font social-title">Red Social</h2>
                         <span class="text-left">
                             <p>Tweets por <a href="https://twitter.com/odin_org">@Odin_org</a></p>
                             <img src="images/odin.svg" alt="Odin-mini" class="odin-mini">
@@ -324,8 +355,10 @@
                                           - Base de datos NoSQL (MongoDB) para la persistencia de los archivos.
                                       </p>
                                       <p>
-                                          - Base de datos relacional (PostgreSQL) para guardar la metadata de todas las entidades. Odín convierte automáticamente los archivos subidos de tipo CSV, XLS, XLSX a JSON para poder ver su contenido, aplicar filtros y búsquedas, generar
-                                          paginación, previsualizaciones, etc.
+                                          - Base de datos relacional (PostgreSQL) para guardar la metadata de todas las entidades.</p>
+                                      <p>
+                                           Odín convierte automáticamente los archivos subidos de tipo CSV, XLS, XLSX a JSON para poder ver su contenido, aplicar filtros y búsquedas, generar
+                                           paginación, previsualizaciones, etc.
                                       </p>
                                       <p>
                                           La API Rest utiliza Kong
@@ -507,13 +540,13 @@
                 <section id="contact" class="section contact text-center center-block hidden-xs">
                     <div class="col-sm-12 center-block row-centered col-centered medium-top-margin">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-centered">
-                            <h2 class="asd size-title">¡Sumate al equipo!</h2>
+                            <h2 class="change-font size-title">¡Sumate al equipo!</h2>
                             <img src="images/cv.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
                             <span class="text-left contact">Cargá tu CV
                                 <a href="#">acá</a>
                             </span>
 
-                            <h2 class="asd size-title">¿Necesitas ayuda para instalarlo?</h2>
+                            <h2 class="change-font size-title">¿Necesitas ayuda para instalarlo?</h2>
                             <img src="images/mensaje.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
                             <span class="text-left contact">Envianos un mail a
                                 <a href="mailto:ayuda@odin.org">ayuda@odin.org</a>
@@ -521,7 +554,7 @@
                         </div>
 
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-centered pull-right">
-                            <h2 class="asd size-title">Recibimos sugerencias</h2>
+                            <h2 class="change-font size-title">Recibimos sugerencias</h2>
                             <img src="images/escribinos.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
                             <span class="text-left contact">Escribinos a
                                 <a href="mailto:hola@odin.org">hola@odin.org</a>
@@ -584,7 +617,7 @@
                           </span>
                       </p>
                        <p class="right-side-footer font-size title-style move-text-footer top-dgiga">
-                         Direccion General de Innovacion y <br> Gobierno Abierto.</p>
+                         Direccion General de Innovacion y Gobierno Abierto.</p>
                        <p class="top-MM">
                          <span class="text-right">Ministerio de Modernizacion</span>
                        </p>
@@ -608,6 +641,12 @@
 
             <script type="text/javascript">
                 $(document).ready(function() {
+
+                        $('nav').find('li').on('click','a', function(){
+                        $('navbar-collapse.in').collapse('hide');
+                     });
+
+
                     // sets active to navbar based on the actual section
                     $('body').scrollspy({target: '#navigation_bar', offset: 150});
 
@@ -633,14 +672,14 @@
                     $('#fullpage').fullpage({
                         sectionSelector: '.section-fp',
                         slidesNavigation: true,
-                        normalScrollElements: '.slide',
+                        //normalScrollElements: '.slide',
                         slidesNavPosition: 'bottom',
                         // scrollBar: true,
                         fitToSection: false,
                         verticalCentered: false,
                         controlArrows: false,
                         autoScrolling: false,
-                        scrollHorizontally:  true
+                        //scrollHorizontally:  true
                         // scrollOverflow: false
                     });
 
