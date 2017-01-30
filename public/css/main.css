@@ -155,7 +155,7 @@ body { color:#56565e; }
     margin-left: -12px;
     margin-top: 19px;}
 
-  .cog-style { margin-top: 5px; }
+  .cog-style { margin-left: -15px;}
   .navbar-default .container-fluid {
     background-color: #fcda59!important; }
 
@@ -183,11 +183,10 @@ body { color:#56565e; }
     margin-left: 60px;
     color: #fff; }
 
-  .almacenamiento { margin-top: 7px; width: 8em; margin-left: -8px;}
+  .almacenamiento { margin-top: -1px; width: 8em; margin-left: -17px;}
 
   .moving-box {
-    width: 8em;
-    margin-left: -11px; }
+    width: 8em; }
 
   .BA-logo {
     width: 3.3em;
@@ -279,13 +278,14 @@ body { color:#56565e; }
     width: 8em;
     margin-left: 0px; }
 
-  .title { font-size: 16px; font-family: 'Chalet-Eighty'; }
+  .title { font-size: 12px; font-family: 'Chalet-Eighty'; }
   .description-size { font-size: 17px!important;}
   .font-size{ font-size: 1.5rem; }
 
   .position-h4 {
     margin-top: -55px;
-    margin-left: 55px; }
+    margin-left: 55px;
+    color: #000000; }
 
   .sections {
     margin-top: 5em;
@@ -298,12 +298,50 @@ body { color:#56565e; }
   and (orientation: portrait) {
     .button-hamburger { margin-left: 320px; }}*/
 
-@media screen
-  (-webkit-min-device-pixel-ratio: 3),
-  and (device-width: 360px)
-  and (device-height: 640px)
-  and (orientation: portrait){
-    .button-hamburger { margin-left: 320px; }}
+@media only screen
+  and (min-device-width: 360px)
+  and (max-device-height: 640px)
+  and (orientation : portrait)
+  and (-webkit-device-pixel-ratio: 3){
+  .up-content { margin-top: 52px; }
+  .cog-style { margin-left: 2px;}
+  .button-hamburger { margin-left: 310px; }
+  .section-top { margin-top: 6.5em;}
+  .almacenamiento { margin-left: -16px; }
+  .moving-box { margin-left: -22px; }}
+
+@media only screen
+    and (max-device-width: 568px)
+    and (-webkit-device-pixel-ratio: 2)
+    and (device-aspect-ratio: 40/71)
+    and (orientation:portrait){
+
+    .section-top { margin-top: 6.5em;}
+    .btn-odin { font-size: 1em;}
+    .contact-h2 { margin-left: -1px!important;}
+    .okfn-logo { margin-left: 0px;}
+    .title {
+      font-size: 11px;
+      margin-left: -18px;}
+    .red-social { margin-top: 135px; margin-left: 100px;}
+    .twitter-footer { margin-left: 22px;}
+    .moving-box { margin-left: -40px; }
+    .cog { margin-top: 13px; }
+    .up-content{ margin-top: 42px; }
+    .almacenamiento { margin-left: -29px;}
+    .logo-ba { margin-left: 13.5em;}
+    .button-hamburger { margin-left: 268px;}
+    .icon-BA { margin-top: 18px;}
+    .top-dgiga { margin-top: -245px } }
+
+@media only screen
+  and (min-device-width : 375px)
+  and (max-device-width : 667px)
+  and (orientation : portrait) {
+    .moving-box { margin-left: -20px;}
+    .cog-style { margin-left: -1px;}
+    .title { font-size: 12px;}
+    .up-content { margin-top: 50px;} }
 
 @media only screen
   and (min-device-width: 412px)
@@ -392,7 +430,7 @@ body { color:#56565e; }
 
   .features img.img-large {
     width: 10em;
-    margin-left: 90px; }
+    margin-left: 100px; }
 
   .social-icon { margin-left: 90px; }
 
