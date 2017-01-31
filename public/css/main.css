@@ -544,7 +544,7 @@ body { color:#56565e; }
 
   .logo-ba {
     width: 5em;
-    margin-left: 74em!important;
+    margin-left: 74em;
     margin-top: -80px; }
 
   .move-legend { margin-right: 160px; }
@@ -663,9 +663,8 @@ body { color:#56565e; }
     padding-right: 30px;
     padding-left: 30px; } }
 
-/*@media only screen and (min-width: 1224px) {
-    .logo-ba { margin-left: 61em;}
-}*/
+@media  screen and (max-width: 1366px) {
+  .logo-ba { margin-left: 61em;} }
 
 .navbar-default .navbar-nav > li > a:active,
 .navbar-default .navbar-nav > li > a:hover {
