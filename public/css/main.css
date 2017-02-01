@@ -196,7 +196,7 @@ body { color:#56565e; }
 
   .logo-ba {
     width: 3em;
-    margin-left: 15.5em;
+    margin-left: 15.5em!important;
     margin-top: -40px; }
 
   .text-right { margin-left: 20px; bs}
@@ -331,7 +331,7 @@ body { color:#56565e; }
     .cog { margin-top: 13px; }
     .up-content{ margin-top: 42px; }
     .almacenamiento { margin-left: -29px;}
-    .logo-ba { margin-left: 13.5em;}
+    .logo-ba { margin-left: 13.5em!important;}
     .button-hamburger { margin-left: 268px;}
     .icon-BA { margin-top: 18px;}
     .top-dgiga { margin-top: -235px } }
