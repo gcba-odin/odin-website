@@ -196,10 +196,10 @@ body { color:#56565e; }
 
   .logo-ba {
     width: 3em;
-    margin-left: 15.5em!important;
+    margin-left: 15em!important;
     margin-top: -40px; }
 
-  .text-right { margin-left: 20px; bs}
+  .text-right { margin-left: 20px; }
 
   .twitter-footer {
     margin-left: 40px;
@@ -279,8 +279,8 @@ body { color:#56565e; }
     width: 8em;
     margin-left: 0px; }
 
-  .title { font-size: 12px; font-family: 'Chalet-Eighty'; }
-  .description-size { font-size: 17px!important;}
+  .title { font-size: 12px; font-family: 'Chalet-Eighty'; width: 10em;}
+  .description-size { font-family: 'Chalet-Eighty'; font-size: 17px!important;}
   .font-size{ font-size: 1.5rem; font-weight: 600; }
 
   .position-h4 {
@@ -305,12 +305,20 @@ body { color:#56565e; }
   and (orientation : portrait)
   and (-webkit-device-pixel-ratio: 3){
   .up-content { margin-top: 52px; }
-  .cog-style { margin-left: 2px;}
+  .cog-style { margin-left: 20px;}
+  .title { margin-left: -25px;}
   .button-hamburger { margin-left: 310px; }
   .section-top { margin-top: 6.5em;}
-  .almacenamiento { margin-left: -16px; }
-  .moving-box { margin-left: -22px; }}
+  .almacenamiento { margin-left: -21px; }
+  .moving-box { margin-left: -21px; }
+  .up-content { margin-top: 16px;}}
 
+/*@media only screen
+and (max-device-width: 640px){
+  .moving-box { margin-left: -21px;}
+  .cog-style { margin-left: 0px;}
+
+}*/
 @media only screen
     and (max-device-width: 568px)
     and (-webkit-device-pixel-ratio: 2)
@@ -322,16 +330,16 @@ body { color:#56565e; }
     .contact-h2 { margin-left: -1px!important;}
     .okfn-logo { margin-left: 0px;}
     .title {
-      font-size: 11px;
-      margin-left: -18px;}
+      font-size: 10px;
+      margin-left: -31px;}
     .text-right { font-size: 13px; margin-left: 0px;}
     .red-social { margin-top: 135px; margin-left: 100px;}
     .twitter-footer { margin-left: 22px;}
     .moving-box { margin-left: -40px; }
     .cog { margin-top: 13px; }
-    .up-content{ margin-top: 42px; }
-    .almacenamiento { margin-left: -29px;}
-    .logo-ba { margin-left: 13.5em!important;}
+    .up-content{ margin-top: 10px; }
+    .almacenamiento { margin-left: -40px;}
+    .logo-ba { margin-left: 13em!important;}
     .button-hamburger { margin-left: 268px;}
     .icon-BA { margin-top: 18px;}
     .top-dgiga { margin-top: -235px } }
@@ -342,8 +350,9 @@ body { color:#56565e; }
   and (orientation : portrait) {
     .moving-box { margin-left: -20px;}
     .cog-style { margin-left: -1px;}
-    .title { font-size: 12px;}
-    .up-content { margin-top: 51px;} }
+    .title { font-size: 12px; margin-left: -20px;}
+    .up-content { margin-top: 15px;}
+    .logo-ba { margin-left: 15.5em!important} }
 
 @media only screen
   and (min-device-width: 412px)
@@ -358,12 +367,13 @@ body { color:#56565e; }
     .position-h4 {
       margin-top: -35px;
       margin-left: 50px; }
-    .moving-box { margin-left: -12px;}
+    .moving-box { margin-left: -17px;}
     .icon-BA { margin-left: 90px!important;}
     .top-gpl { margin-left: 70px;}
     .text-right { margin-left: 40px; }
     .red-social { margin-left: 140px;}
-    .up-content { margin-top: 44px;}
+    .up-content { margin-top: 26px;}
+    .logo-ba { margin-left: 17.5em!important;}
     .twitter-footer { margin-left: 63px;} }
 
 @media (min-width: 768px) and (max-width: 992px) {
