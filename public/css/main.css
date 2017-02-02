@@ -214,7 +214,7 @@ body { color:#56565e; }
   .icon-BA {
     margin-top: 30px;
     width: 200px;
-    margin-left: 62px!important; }
+    margin-left: 50px!important; }
 
   .right-side-footer {
     color: white;
@@ -313,12 +313,17 @@ body { color:#56565e; }
   .moving-box { margin-left: -21px; }
   .up-content { margin-top: 16px;}}
 
-/*@media only screen
-and (max-device-width: 640px){
-  .moving-box { margin-left: -21px;}
-  .cog-style { margin-left: 0px;}
+@media only screen
+    and (max-device-width: 598px){
+      .moving-box { margin-left: -21px;}
+      .title { margin-left: -25px;}
+      .text-right { margin-left: 12px;}
+      .up-content { margin-top: 16px;}
+      .button-hamburger { margin-left: 310px;}
+      .icon-BA { margin-left: 61px!important}
+      .odin-hero { margin-top: 13vh!important}}
 
-}*/
+
 @media only screen
     and (max-device-width: 568px)
     and (-webkit-device-pixel-ratio: 2)
