@@ -1,0 +1,50 @@
+.uploader input {
+    display: none;
+}
+
+.uploader {
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.02);
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    outline: 3px dashed #ccc;
+    outline-offset: 5px;
+    position: relative;
+    width: 300px;
+    cursor: pointer;
+    top: 35px;
+}
+
+.uploader img {
+    left: 50%;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transition: all 300ms ease-in;
+    transform: translate(-50%,-50%);
+}
+
+
+@media (min-width: 320px) and (max-width: 765px) {
+  .uploader {
+    height: 145px;
+    width: 230px;
+    margin: auto;
+    top: 38px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .uploader {
+    height: 145px;
+    width: 230px;
+    margin: auto;
+    top: 0px;
+    float: left;
+    left: 33px;
+    cursor: pointer;
+  }
+}

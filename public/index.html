@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="fonts/avenir/importer.css" media="screen">
         <link rel="stylesheet" href="css/jquery.fullPage.min.css" media="screen" title="no title">
         <link rel="stylesheet" href="css/main.css" media="screen">
+        <link href="https://file.myfontastic.com/SLzQsLcd7FmmzjBYTcyVW3/icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/fileuploader.css">
     </head>
     <body>
          <!-- nav -->
@@ -65,7 +67,7 @@
              <span class="gradient-shadow"></span>
          </nav>
 
-         <div class="container-wrap large-top-margin" id="fullpage" style="margin-left: 1px; margin-right: 1px;">
+         <div class="container-wrap large-top-margin" id="fullpage" style="overflow-x: hidden;">
 
              <section id="landing" class="section features-landing text-center center-block medium-top-margin">
                 <div class="col-sm-12 center-block row-centered col-centered ">
@@ -490,20 +492,27 @@
                   <section id="contact" class="section contact text-center center-block hidden-xs">
                       <div class="col-sm-12 center-block row-centered col-centered medium-top-margin">
                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-centered">
-                              <h2 class="change-font size-title">¡Sumate al equipo!</h2>
-                              <img src="images/cv.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
-                              <span class="text-left contact">Cargá tu CV
-                                  <a href="#">acá</a>
-                              </span>
+                            <div class="col-md-6">
+                                <span>
+                                  <h2 class="change-font size-title">¡Sumate al equipo!</h2>
+                                </span>
+                                <label class="uploader" ondragover="return false">
+                                  <img src="images/cv.svg"/>
 
+                                  <input type="file" accept="image/*" name="file">
+                                </label>
+                              </div>
+                              <div class="col-md-6">
+                                <button type="button" class="btn btn-info large-margin">Enviar</button>
+                              </div>
+                          </div>
+
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-centered pull-right">
                               <h2 class="change-font size-title">Te ayudamos a instalarlo</h2>
                               <img src="images/mensaje.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
                               <span class="text-left contact">Envianos un mail a
                                   <a href="mailto:ayuda@odin.org">ayuda@odin.org</a>
                               </span>
-                          </div>
-
-                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-centered pull-right">
                               <h2 class="change-font size-title">Recibimos sugerencias</h2>
                               <img src="images/escribinos.svg" alt="twitter" class="img-responsive" style="display:inline;"/>
                               <span class="text-left contact">Escribinos a
@@ -515,13 +524,20 @@
                   </section>
 
                   <section id="contact-xs" class="section-fp contact text-center center-block visible-xs fp-auto-height">
+
                         <div class="col-sm-12 center-block slide text-center center-block">
-                            <img src="images/cv.svg" alt="twitter" class="img-responsive" style="display:inline; width:12em;"/>
-                            <h2 class="change-font text-center">¡Sumate al equipo!</h2>
-                            <span class="text-center center-block span-fix">Cargá tu CV
-                                <a href="#">acá</a>
-                            </span>
+                          <div class="wrapper">
+                              <span>
+                                <h2 class="change-font">¡Sumate al equipo!</h2>
+                              </span>
+                              <label class="uploader" ondragover="return false">
+                                <img src="images/cv.svg"/>
+                                <input type="file" accept="image/*" name="file">
+                              </label>
+                          </div>
+                          <button type="button" class="btn btn-info medium-top-margin">Enviar</button>
                         </div>
+
 
                         <div class="col-sm-12 center-block slide text-center center-block">
                             <img src="images/mensaje.svg" alt="twitter" class="img-responsive" style="display:inline; width:12em;"/>
@@ -581,6 +597,11 @@
             <script src="js/jquery.easings.min.js" charset="utf-8"></script>
             <script src="js/bootstrap.min.js" charset="utf-8"></script>
             <script src="js/jquery.fullPage.min.js" charset="utf-8"></script>
+            <script src="FileUploader.js"></script>
+
+            <script type="text/javascript">
+                new FileUploader('.uploader');
+            </script>
 
             <script type="text/javascript">
                 $(document).ready(function() {

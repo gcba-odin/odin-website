@@ -34,7 +34,8 @@ body { color:#56565e; }
 
 .large-bottom-margin {
   margin-bottom: 5em; }
-
+.large-margin {
+  margin-top: 16em;}
 .small-top-margin {
   margin-top: 1.5em; }
 
@@ -357,6 +358,7 @@ body { color:#56565e; }
     .cog-style { margin-left: -1px;}
     .title { font-size: 12px; margin-left: -20px;}
     .up-content { margin-top: 15px;}
+    .button-hamburger { margin-left: 320px}
     .logo-ba { margin-left: 15.5em!important} }
 
 @media only screen
@@ -654,7 +656,8 @@ body { color:#56565e; }
   .right-side-footer {
     color: white;
     margin-left: -18px;
-    margin-top: 35px;}
+    margin-top: 35px;
+    font-family: 'Chalet-Eighty'}
 
   .icon-BA {
     margin-top: 25px;
