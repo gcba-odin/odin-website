@@ -35,7 +35,7 @@ body { color:#56565e; }
 .large-bottom-margin {
   margin-bottom: 5em; }
 .large-margin {
-  margin-top: 16em;}
+  margin-top: 10em;}
 .small-top-margin {
   margin-top: 1.5em; }
 
@@ -610,7 +610,7 @@ body { color:#56565e; }
     font-size: 20px;
     font-weight: 100;}
 
-  .font-size{ font-size: 1.9rem;}
+  .font-size{ font-size: 1.9rem; font-weight: 600;  }
 
   .down-text{ margin-top: 65px;}
 
